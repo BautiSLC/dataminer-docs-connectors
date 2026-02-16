@@ -90,7 +90,7 @@ The page contains six page buttons that display more detailed information:
 
 ### Events
 
-This page gives an overview of the event parameters related to the tuner (e.g.Tuner RF Power Event Value, Tuner RF TS Sync Event T1), ASI (e.g., ASI TS Sync Event T1) and IP TS (e.g., IP TS Sync Event T1).
+This page gives an overview of the event parameters related to the tuner (e.g., Tuner RF Power Event Value, Tuner RF TS Sync Event T1), ASI (e.g., ASI TS Sync Event T1) and IP TS (e.g., IP TS Sync Event T1).
 
 In addition, the following page buttons display more detailed event information:
 
