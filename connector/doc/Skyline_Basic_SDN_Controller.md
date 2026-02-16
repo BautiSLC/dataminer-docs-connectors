@@ -4,32 +4,14 @@ uid: Connector_help_Skyline_Basic_SDN_Controller
 
 # Skyline Basic SDN Controller
 
-The Skyline Basic SDN Controller is a generic solution to control and configure IP streams based on the premise that the configuration is done at the destiny. It assumes that the network is in a "non-blocking" state and that the elements can handle the configuration proposed by the user.
-
 ## About
 
-### Version Info
-
-| Range                | Key Features     | Based on     | System Impact     |
-|----------------------|------------------|--------------|-------------------|
-| 1.0.0.x [SLC Main]   | Initial version  | -            | -                 |
-
-### Product Info
-
-| Range     | Supported Firmware                                                           |
-|-----------|------------------------------------------------------------------------------|
-| 1.0.0.1   | Not applicable. This is a virtual connector that doesn't connect to any device. |
-
-### System Info
-
-| Range     | DCF Integration     | Cassandra Compliant     | Linked Components                | Exported Components     |
-|-----------|---------------------|-------------------------|----------------------------------|-------------------------|
-| 1.0.0.1   | No                  | Yes                     | See "Solution Components" below. | -                       |
+The Skyline Basic SDN Controller is a generic solution to control and configure IP streams based on the premise that the configuration is done at the destiny. It assumes that the network is in a "non-blocking" state and that the elements can handle the configuration proposed by the user.
 
 ## Solution Components
 
 - **SDN controller:** Based on a generic matrix that allows the interconnecting of inputs and outputs.
-- **Connection script:** automation script that the SDN controller will execute to create the connections.
+- **Connection script:** Automation script that the SDN controller will execute to create the connections.
 - **Metadata definition:** Script that defines the metadata format that will be used by the SDN controller.
 - **Parameter profiles:** A parameter profile must be defined in the Profiles module for each parameter that the SDN controller will use when the Connection or Disconnection script is called.
 
