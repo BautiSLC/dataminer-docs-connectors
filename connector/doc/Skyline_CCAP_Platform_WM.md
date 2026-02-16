@@ -4,7 +4,7 @@ uid: Connector_help_Skyline_CCAP_Platform_WM
 
 # Skyline CCAP Platform WM
 
-The Skyline CCAP Platform Workflow Manager protocol is used to handle workflows and data exchange processes between the different DataMiner modules present in the DataMiner EPM Solution. These modules include elements, protocols, and the correlation and automation apps.
+The Skyline CCAP Platform Workflow Manager protocol is used to handle workflows and data exchange processes between the different DataMiner modules present in the DataMiner EPM Solution. These modules include elements, protocols, and the Correlation and Automation apps.
 
 ## About
 
