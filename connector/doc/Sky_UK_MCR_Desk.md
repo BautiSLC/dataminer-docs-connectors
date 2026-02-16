@@ -36,7 +36,7 @@ The name of the Matrix is shown on the **SDI Matrix Element** parameter.
 
 This connector also shows 2 other parameters: The **Monitor Follows IO** and a **Linked Output Monitor**.
 
-Also the **Buffer - Trigger Automation Script** parameter shows the command that was sent from Visual Overview. The syntax of the command that triggers the launching of the script adheres to a certain standard.The line should start with \[automation\].
+Also the **Buffer - Trigger Automation Script** parameter shows the command that was sent from Visual Overview. The syntax of the command that triggers the launching of the script adheres to a certain standard.The line should start with \[Automation\].
 
 Furthermore there are 2 separators: \[NextAtt\] and \[AttData\].
 
