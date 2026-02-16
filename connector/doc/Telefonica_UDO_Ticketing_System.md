@@ -48,9 +48,9 @@ In order to use the **Telefonica UDO Ticketing System** connector, you must firs
 
 When the script has been imported, create a correlation rule that will execute the automation script whenever the Ineoquest iVMS generates or clears an alarm related to the video channels. The screenshot below illustrates how to do so.
 
-![correlation.jpg](~/connector/images/Telefonica_UDO_Ticketing_System_Correlation.jpg)
+![Correlation.jpg](~/connector/images/Telefonica_UDO_Ticketing_System_Correlation.jpg)
 
-For more information on the Correlation module, see [DataMiner correlation](https://aka.dataminer.services/correlation).
+For more information on the Correlation module, see [DataMiner Correlation](https://aka.dataminer.services/correlation).
 
 ### Redundancy
 
