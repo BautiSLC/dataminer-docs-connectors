@@ -8,7 +8,7 @@ The **Route Mobile SmsPlus** is used to send text messages using an HTTP request
 
 ## About
 
-The connector needs to be configured with the right username and password so that it can be authorized to deliver text messages. To be able to send a message, you also need to configure the sender ID and message type in the connector options. The receiver mobile number and message need to be combined with a pipe character ("\|") in the automation text box. The connector will process all this information (username, password, sender ID, message type, recipient number and message) and make a HTTP request to deliver the message.
+The connector needs to be configured with the right username and password so that it can be authorized to deliver text messages. To be able to send a message, you also need to configure the sender ID and message type in the connector options. The receiver mobile number and message need to be combined with a pipe character ("\|") in the Automation text box. The connector will process all this information (username, password, sender ID, message type, recipient number and message) and make a HTTP request to deliver the message.
 
 On the General page, all the message information, such as the recipient mobile number, the message and the time stamp of the message are displayed. This page also includes basic statistics such as the logging status, HTTP status code, total SMS messages, number of succeeded SMS messages and number of failed SMS messages.
 
