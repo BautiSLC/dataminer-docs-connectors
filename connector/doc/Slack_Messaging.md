@@ -4,20 +4,19 @@ uid: Connector_help_Slack_Messaging
 
 # Slack Messaging
 
+## About
+
 This connector can be used to integrate Skyline DataMiner with a **Slack workspace**. It will communicate with Slack and ensure that the configured list of actions is executed. In order to keep this connector as general as possible, these actions are defined in **automation scripts**.
 
 When commands are sent into a Slack channel, these will be picked up by the element running this connector. When the element detects a known command, it will execute the automation script linked to that command.
-
-> [!TIP]
-> To find out more about how this connector can be used to unify your team's communication between DataMiner and Slack, check out the [Slack Messaging use case](https://community.dataminer.services/use-case/slack-messaging/) on DataMiner Dojo.
-
-## About
 
 **HTTP communication** is used to communicate with the Slack API ([http://api.slack.com](http://api.slack.com/)). Two separate connections are made: one connection to the WEB API, and a second (web socket) connection to the RTM API.
 
 The connector periodically retrieves the list of users and conversations via the WEB API (using polling), while messages that users send in a channel are pushed to the connector via the web socket interface.
 
-**Access tokens** are used to authenticate on the API. Such a token can be obtained from the app configuration webpage. For more information, refer to the "Installation and configuration" section below. Automation scripts that can be executed via Slack must have the following **specific dummies and parameters**, as otherwise they will be ignored:
+**Access tokens** are used to authenticate on the API. Such a token can be obtained from the app configuration webpage. For more information, refer to the "Installation and configuration" section below.
+
+Automation scripts that can be executed via Slack must have the following **specific dummies and parameters**, as otherwise they will be ignored:
 
 - Dummy "SLACK": The Slack DataMiner element that is executing the script.
 - Parameter "CONVUSERNAME": The other end user name. This can be used by the script to reply with messages referring to the name of the Slack user that invoked a command.
@@ -26,23 +25,8 @@ The connector periodically retrieves the list of users and conversations via the
 
 Users can use the "!list" command to retrieve an overview of all compatible and enabled scripts that can be executed. The command for each script can be customized on the "Automation Scripts" page.
 
-### Version Info
-
-| Range                | Key Features     | Based on     | System Impact     |
-|----------------------|------------------|--------------|-------------------|
-| 1.0.0.x [SLC Main]   | Initial version  | -            | -                 |
-
-### Product Info
-
-| Range     | Supported Firmware     |
-|-----------|------------------------|
-| 1.0.0.x   | -                      |
-
-### System Info
-
-| Range     | DCF Integration     | Cassandra Compliant     | Linked Components     | Exported Components     |
-|-----------|---------------------|-------------------------|-----------------------|-------------------------|
-| 1.0.0.x   | No                  | Yes                     | -                     | -                       |
+> [!TIP]
+> To find out more about how this connector can be used to unify your team's communication between DataMiner and Slack, check out the [Slack Messaging use case](https://community.dataminer.services/use-case/slack-messaging/) on DataMiner Dojo.
 
 ## Installation and configuration
 
@@ -73,14 +57,14 @@ HTTP CONNECTION:
 This integration works based on a Slack bot that must be preconfigured via the Slack API website. Follow the following steps in order to do this configuration:
 
 1. Go to <https://api.slack.com/apps>.
-2. Click "Create New App".
-3. Provide a name for the app (i.e. DataMiner), and select the workspace in which you want to integrate the app.
-4. Click "Create App".
-5. Go to the "Bot Users" page and select "Add Bot User".
-6. Give the bot user a name (i.e. DataMiner), and make sure that "Always Show My Bot as Online" option is turned off. The bot user will automatically be online when the connector is connected to the web socket connection.
-7. Click "Add Bot User".
-8. Install the application in your workspace, in order to receive the bot authentication token that can be used in the element.
-9. Copy the "Bot User Oauth Access Token", and paste it in the "OAuth Access Token" parameter on the Authentication page of the Slack element in DataMiner.
+1. Click "Create New App".
+1. Provide a name for the app (i.e. DataMiner), and select the workspace in which you want to integrate the app.
+1. Click "Create App".
+1. Go to the "Bot Users" page and select "Add Bot User".
+1. Give the bot user a name (i.e. DataMiner), and make sure that "Always Show My Bot as Online" option is turned off. The bot user will automatically be online when the connector is connected to the web socket connection.
+1. Click "Add Bot User".
+1. Install the application in your workspace, in order to receive the bot authentication token that can be used in the element.
+1. Copy the "Bot User Oauth Access Token", and paste it in the "OAuth Access Token" parameter on the Authentication page of the Slack element in DataMiner.
 
    The connector will now connect to the Slack API, and shortly afterwards the bot user will come online.
 
@@ -153,14 +137,14 @@ The connector provides the functionality to send a message from an external sour
 
 - Simple XML:
 
-- Set to parameter with **ID 50**
+  - Set to parameter with **ID 50**
   - Only basic formatting
   - Format is XML: \<Message\>\<Channel\>name or ID of the channel \</Channel\>\<Text\>the text to send to the channel\</Text\>\<Tag\>unique identifier\</Tag\>\</Message\>
   - Tag can be chosen by the sender to be able to uniquely identify the message. This can be used later to send an update of this message to the Slack channel.
 
 - Raw JSON string:
 
-- Set to parameter with **ID 51**
+  - Set to parameter with **ID 51**
   - Allows more advanced formatting and attachments
   - Format: see <https://api.slack.com/methods/chat.postMessage>
   - JSON is sent directly to the chat.postMessage WEB API method, without modifications
