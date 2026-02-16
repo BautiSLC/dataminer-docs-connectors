@@ -50,7 +50,7 @@ When the script has been imported, create a correlation rule that will execute t
 
 ![Correlation.jpg](~/connector/images/Telefonica_UDO_Ticketing_System_Correlation.jpg)
 
-For more information on the Correlation module, see [DataMiner Correlation](https://aka.dataminer.services/correlation).
+For more information on the Correlation module, see [DataMiner Correlation](https://aka.dataminer.services/Correlation).
 
 ### Redundancy
 
