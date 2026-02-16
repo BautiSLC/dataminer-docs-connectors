@@ -34,7 +34,7 @@ This connector serves as a lightweight, shared configuration element for other a
 
 ### Mode-aware automation workflows
 
-**Challenge**: automation scripts need awareness of the current operational mode to make safe and context-aware decisions.
+**Challenge**: Automation scripts need awareness of the current operational mode to make safe and context-aware decisions.
 
 **Solution**: Consume the Current Mode and Mode Configuration data from the connector within automation scripts.
 
