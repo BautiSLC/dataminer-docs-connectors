@@ -32,15 +32,7 @@ This connector uses three **automation scripts**. These must be added before you
 - Switching Nodes AS.xml
 - Switching Nodes IAS.xml
 
-There are two ways to add these automation scripts:
-
-1. In **System Display**, go to Advanced \> automation, then select "Insert File" and select the automation scripts one by one.
-
-1. Paste the three **automation scripts** into *C:\Skyline DataMiner\Scripts* and then perform a force synchronization as follows:
-
-   - In **System Display**, right-click the top banner and select Admin Tools \> Force Synchronization \> File... In the "Force Synchronization" window, paste *C:\Skyline DataMiner\Scripts* and click OK.
-
-In addition, you must also add the report template. To do so, place the file *Node Switch Report.asp* in the folder *C:\Skyline DataMiner\Webpages\Reports\templates*, and then perform a force synchronization of this folder (in the same way as described above).
+In addition, you must also add the report template. To do so, place the file *Node Switch Report.asp* in the folder *C:\Skyline DataMiner\Webpages\Reports\templates*, and then perform a force synchronization of this folder.
 
 Finally, you then need to fill in the settings on the **Settings** page of the element, as described below in the section "Settings Page."
 
