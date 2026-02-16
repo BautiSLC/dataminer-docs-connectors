@@ -74,13 +74,13 @@ This page displays a table with information related to the Ethernet port.
 
 ### TX Interfaces
 
-This page displays the tables relates to the TX interfaces, i.e. **TX Interfaces VLANS** and **TX Interfaces Host**.
+This page displays the tables relates to the TX interfaces, i.e., **TX Interfaces VLANS** and **TX Interfaces Host**.
 
 This page has a subpage called **Statistics**, which contains information related to **TX Interface Statistics**, including **TX Session**, **TX PDV Statistics**, **TX Session Payload** and **TX Session Monitored PIDs**.
 
 ### RX Interfaces
 
-This page displays the tables related to the RX interfaces, i.e. **RX Interfaces VLANS** and **RX Interfaces Host**.
+This page displays the tables related to the RX interfaces, i.e., **RX Interfaces VLANS** and **RX Interfaces Host**.
 
 This page has a subpage called **Statistics**, which contains information related to **RX Interface Statistics**, including **RX Session**, **RX PDV Statistics**, **RX Session Payload** and **RX Session Monitored PIDs**.
 

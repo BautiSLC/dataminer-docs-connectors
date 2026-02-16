@@ -31,7 +31,7 @@ This connector uses an HTTP connection and requires the following input during e
 
 HTTP CONNECTION:
 
-- **IP address/host**: The IP of the online service where the tickets need to be placed, e.g. *27.96.104.57.*
+- **IP address/host**: The IP of the online service where the tickets need to be placed, e.g., *27.96.104.57.*
 - **IP Port**: The IP port of the service is port "*80*" (fixed).
 - **Bus Address**: "*byPassProxy*" (fixed).
 

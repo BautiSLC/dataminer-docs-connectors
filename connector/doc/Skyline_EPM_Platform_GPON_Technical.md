@@ -112,7 +112,7 @@ The provisioning of the EPM Solution for GPON is sequential and involves the fol
 
 - **Skyline EPM Platform**: Responsible for the top-level data aggregation, displaying the topologies and ID assignment of all entities.
 - **Skyline EPM Platform GPON**: In charge of the data aggregation from the OLTs.
-- **OLT Platform**: In charge of polling data from the different OLTs (e.g. ZTE ZXA10 C600 GPON Platform) and exporting all available the entities.
+- **OLT Platform**: In charge of polling data from the different OLTs (e.g., ZTE ZXA10 C600 GPON Platform) and exporting all available the entities.
 
 > [!NOTE]
 > From branch 1.0.4.x onwards, the Skyline EPM Platform is no longer needed, as the Skyline EPM Platform GPON connector can take both the *Backend* and the *Frontend* role.

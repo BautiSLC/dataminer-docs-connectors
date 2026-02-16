@@ -67,7 +67,7 @@ For example, **SDI video resources** are configured by first selecting the **SDI
 
 ### EBU Synopsis
 
-It is possible to let the WFM update the **EBU synopsis** when there is an activity change, e.g. when an activity is created. On the **Config EBU** page, you need to define where this synopsis command should be sent.
+It is possible to let the WFM update the **EBU synopsis** when there is an activity change, e.g., when an activity is created. On the **Config EBU** page, you need to define where this synopsis command should be sent.
 
 ### Offload/Delete
 

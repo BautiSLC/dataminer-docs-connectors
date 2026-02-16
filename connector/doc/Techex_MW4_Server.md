@@ -42,7 +42,7 @@ This connector uses an HTTP connection and requires the following input during e
 
 HTTP CONNECTION:
 
-- **IP address/host**: The server URL (e.g. *[https://middleware.techex.co.uk](https://middleware.techex.co.uk/))*
+- **IP address/host**: The server URL (e.g., *[https://middleware.techex.co.uk](https://middleware.techex.co.uk/))*
 
 ## Usage
 

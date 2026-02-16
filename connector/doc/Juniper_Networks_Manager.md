@@ -71,7 +71,7 @@ This is an SNMP and SSH connector. The IP has to be configured during creation o
 
 SNMP CONNECTION:
 
-- **IP address/host**: The polling IP of the device, e.g. *10.11.12.13*.
+- **IP address/host**: The polling IP of the device, e.g., *10.11.12.13*.
 
 SNMP settings:
 
@@ -81,7 +81,7 @@ SNMP settings:
 
 SSH settings:
 
-- **IP address:** The polling IP of the device, e.g. *10.11.12.13*.
+- **IP address:** The polling IP of the device, e.g., *10.11.12.13*.
 - **Port number**: The SSH port of the connected device, by default *23* or *22* (version 1.0.3.x).
 
 ### Initialization

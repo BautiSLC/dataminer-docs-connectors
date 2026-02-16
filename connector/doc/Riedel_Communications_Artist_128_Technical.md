@@ -187,12 +187,12 @@ There are two ways to add panels and keys:
 
 To use the CSV import feature:
 
-1. Define the full file path in **Path of the Files** (e.g. C:\Users\\User)\Desktop).
+1. Define the full file path in **Path of the Files** (e.g., C:\Users\\User)\Desktop).
 
 1. Choose a file name:
 
    > [!IMPORTANT]
-   > If you want to import a key table or a panel table, the file name must contain "Key Table" or "Panel Table" (e.g. "Key Table 2017-09-25").
+   > If you want to import a key table or a panel table, the file name must contain "Key Table" or "Panel Table" (e.g., "Key Table 2017-09-25").
 
 1. Make sure the columns in the CSV file are correctly ordered and have the correct names. Refer to the examples below.
 

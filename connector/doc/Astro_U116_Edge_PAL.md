@@ -37,7 +37,7 @@ A\) Communication with U100C as proxy :
 **SERIAL Connection:**
 
 - **IP address/host**: the IP address of the Astro U100 Controller
-- **IP port**: the port of the destination e.g. 80
+- **IP port**: the port of the destination e.g., 80
 - **Bus address**: The IP address of the U116. Also, we must fill in 'ByPassProxy' to bypass any possible proxy which could block the HTTP communication. Both fields must be separated by a semi-column. e.g : ByPassProxy;10.11.12.13
 
 B\) Direct Communication :
@@ -45,7 +45,7 @@ B\) Direct Communication :
 **SERIAL Connection:**
 
 - **IP address/host**: The IP address of the U116
-- **IP port**: the port of the destination e.g. 80
+- **IP port**: the port of the destination e.g., 80
 - **Bus address**: this field can be used to bypass the proxy. To do so fill in the value ByPassProxy.
 
 ### SNMP
@@ -54,7 +54,7 @@ In either case, the **SNMP** interface collects the traps emitted by the device,
 
 **SNMP Connection:**
 
-- **IP Address/host**: The polling IP of the U116, e.g. 10.11.12.13
+- **IP Address/host**: The polling IP of the U116, e.g., 10.11.12.13
 
 **SNMP Settings:**
 

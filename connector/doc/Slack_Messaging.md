@@ -58,10 +58,10 @@ This integration works based on a Slack bot that must be preconfigured via the S
 
 1. Go to <https://api.slack.com/apps>.
 1. Click "Create New App".
-1. Provide a name for the app (i.e. DataMiner), and select the workspace in which you want to integrate the app.
+1. Provide a name for the app (i.e., DataMiner), and select the workspace in which you want to integrate the app.
 1. Click "Create App".
 1. Go to the "Bot Users" page and select "Add Bot User".
-1. Give the bot user a name (i.e. DataMiner), and make sure that "Always Show My Bot as Online" option is turned off. The bot user will automatically be online when the connector is connected to the web socket connection.
+1. Give the bot user a name (i.e., DataMiner), and make sure that "Always Show My Bot as Online" option is turned off. The bot user will automatically be online when the connector is connected to the web socket connection.
 1. Click "Add Bot User".
 1. Install the application in your workspace, in order to receive the bot authentication token that can be used in the element.
 1. Copy the "Bot User Oauth Access Token", and paste it in the "OAuth Access Token" parameter on the Authentication page of the Slack element in DataMiner.
@@ -133,7 +133,7 @@ This page displays the app configuration page on the Slack API website. Note tha
 
 ### External sets
 
-The connector provides the functionality to send a message from an external source in DataMiner (i.e. an automation script) to a channel in Slack. This can be done in two different ways:
+The connector provides the functionality to send a message from an external source in DataMiner (i.e., an automation script) to a channel in Slack. This can be done in two different ways:
 
 - Simple XML:
 

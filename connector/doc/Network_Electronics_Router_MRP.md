@@ -8,7 +8,7 @@ The Network Electronics MRP matrix routers can be controlled and monitored using
 
 ## About
 
-Range 2.1.0.x uses serial communication and introduces virtual matrixes. It works with MRP rev3.0, syntax v3. The connector allows you to manage connections of logical routers (i.e. levels) that are partitions of the physical device. Virtual routers allow you to manage connections on multiple levels at the same time.
+Range 2.1.0.x uses serial communication and introduces virtual matrixes. It works with MRP rev3.0, syntax v3. The connector allows you to manage connections of logical routers (i.e., levels) that are partitions of the physical device. Virtual routers allow you to manage connections on multiple levels at the same time.
 
 The Network Electronics MRP matrix routers are polled with SNMP from version 3.0.0.x onwards, and can connect each output with a single input. In addition, they allow the user to monitor fans, voltages, temperatures, etc.
 
@@ -97,7 +97,7 @@ This connector uses a Simple Network Management Protocol (SNMP) connection and r
 
 SNMP CONNECTION:
 
-- **IP address/host**: The polling IP of the device, e.g. *10.11.12.13.*
+- **IP address/host**: The polling IP of the device, e.g., *10.11.12.13.*
 - **Device address**: Determines the level of the router that will be retrieved.
 
 SNMP Settings:

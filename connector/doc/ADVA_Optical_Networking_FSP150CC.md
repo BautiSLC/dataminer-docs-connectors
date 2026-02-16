@@ -211,7 +211,7 @@ It also contains a button, **Poll System Event Table**, which can be used to man
 
 This page displays information about the **Network Element Event Table**. It also features a button, **Poll NE Event Table**, for similar reasons as explained in the System Alarms section above.
 
-This page also displays extra information, such as **Last State Change** and **Event Counter**, and possible actions that can be applied to the element alarm settings, for example with the **Test Entity ID** and **Test Action buttons**, which are a combination of test parameters. Test Entity ID is the OID of the test object, e.g. the Network Interface OID. Test Action will raise or clear the test alarm on the object specified in Test Entity ID.
+This page also displays extra information, such as **Last State Change** and **Event Counter**, and possible actions that can be applied to the element alarm settings, for example with the **Test Entity ID** and **Test Action buttons**, which are a combination of test parameters. Test Entity ID is the OID of the test object, e.g., the Network Interface OID. Test Action will raise or clear the test alarm on the object specified in Test Entity ID.
 
 Finally, the **Trap File Size** parameter allows you to control the size of the log file, and the **Log Traps** parameter allows you to enable or disable the logging of the traps.
 

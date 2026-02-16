@@ -83,7 +83,7 @@ Once created, the element can be used immediately. There are 8 pages available, 
 
 ### System Statistics
 
-This page displays general statistical information about the device, e.g. **Number AP**, **Number STA**, **WLAN Total Rx Pkts**, etc.
+This page displays general statistical information about the device, e.g., **Number AP**, **Number STA**, **WLAN Total Rx Pkts**, etc.
 
 ### Interfaces
 
@@ -95,7 +95,7 @@ This page contains information organized by **Service Set Identifier (SSID)**. F
 
 ### SCG WLAN
 
-The information on this page is also organized by SSID and is similar to the information on the WLAN page, with a number of additional details, e.g. **Zone**, **Domain**, and **Authentication Type**.
+The information on this page is also organized by SSID and is similar to the information on the WLAN page, with a number of additional details, e.g., **Zone**, **Domain**, and **Authentication Type**.
 
 ### WLAN AP
 
@@ -207,7 +207,7 @@ Finally, the page also contains a page button, **SCG AP DVEs**, which displays t
 
 ### SCG WLAN
 
-The information on this page is also organized by SSID and is similar to the information on the WLAN page, with a number of additional details, e.g. **Zone**, **Domain**, and **Authentication Type**.
+The information on this page is also organized by SSID and is similar to the information on the WLAN page, with a number of additional details, e.g., **Zone**, **Domain**, and **Authentication Type**.
 
 ### SCG SoftGRE Tunnels
 

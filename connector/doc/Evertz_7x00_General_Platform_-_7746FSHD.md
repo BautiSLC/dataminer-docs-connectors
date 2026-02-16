@@ -20,7 +20,7 @@ Its default name will be 7746FSHD.x, where x is the slot where the card is attac
 
 ### General
 
-This page displays card data and **AFD** information. i.e. **Slot number, card type, card status**, etc.
+This page displays card data and **AFD** information. i.e., **Slot number, card type, card status**, etc.
 
 ### Video
 

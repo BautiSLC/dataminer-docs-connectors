@@ -16,7 +16,7 @@ This connector uses a virtual connection and does not require any input during e
 
 ## How to use
 
-The **General** page contains the **Request Log Table** along with refresh and configuration buttons. The **Request Log Config** button opens a subpage with the configuration parameters for the **Request Log Table** (i.e. the Request Log Table Age Limit and Request Log Table Row Limit).
+The **General** page contains the **Request Log Table** along with refresh and configuration buttons. The **Request Log Config** button opens a subpage with the configuration parameters for the **Request Log Table** (i.e., the Request Log Table Age Limit and Request Log Table Row Limit).
 
 The **PA Debug** page contains information regarding the data imported into DataMiner regarding the different HTTP requests that are done. These parameters contain the information of the latest applicable request.
 

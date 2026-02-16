@@ -55,7 +55,7 @@ The **Web Service ID** and **Web Service Secret Key** need to be configured for 
 
 The element will start polling as soon as the credentials are configured.
 
-However, from range 2.0.1.x onwards, **only synopsis polling is enabled by default**. If you want to request additional information (e.g. events), you first need to configure the polling frequency for this. On each page, you can access the configuration of the polling frequency and you can configure if possible linked items should be retrieved.
+However, from range 2.0.1.x onwards, **only synopsis polling is enabled by default**. If you want to request additional information (e.g., events), you first need to configure the polling frequency for this. On each page, you can access the configuration of the polling frequency and you can configure if possible linked items should be retrieved.
 
 #### Callbacks
 

@@ -6,7 +6,7 @@ uid: Connector_help_Huawei_5688-5800_CCAP_Platform
 
 The Huawei 5688-5800 CCAP Platform is designed to support integrated-access architectures, DOCSIS 3.0 and 3.1, all video types, and software-defined networking.
 
-This connector allows you to collect data from the Huawei 5688-5800 CCAP Platform along with complementary data from auxiliary connectors, e.g. the Generic CM Collector. This data is then centralized within the connector and used by DataMiner EPM for aggregation actions.
+This connector allows you to collect data from the Huawei 5688-5800 CCAP Platform along with complementary data from auxiliary connectors, e.g., the Generic CM Collector. This data is then centralized within the connector and used by DataMiner EPM for aggregation actions.
 
 ## About
 

@@ -47,7 +47,7 @@ Specify the **Tellyo-token** on the **General** page. The connector will automat
 > [!NOTE]
 > - The Tellyo Open API is a JSON-based REST API that allows external applications to manage basic tasks within their Tellyo account.
 > - All Open API requests require a **Tellyo-Token** header, provided by Tellyo, to uniquely identify the integrating application.
-> - The access token can only access one organization. Object IDs (e.g. channels, sources, recordings) are unique within a single region.
+> - The access token can only access one organization. Object IDs (e.g., channels, sources, recordings) are unique within a single region.
 > - The same ID can be assigned to different channels in Europe and Australia, but you need a different access token to access those regions.
 
 ## How to use

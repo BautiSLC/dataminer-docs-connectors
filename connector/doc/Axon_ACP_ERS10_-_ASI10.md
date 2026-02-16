@@ -44,7 +44,7 @@ This page indicates the current status of some specific parameters for both chan
 
 ### Settings
 
-This page displays the current status of some ASI10 settings (e.g. **Output Configuration**, **Input Selection**, **Rate Status**, etc.) and allows you to change or adjust them.
+This page displays the current status of some ASI10 settings (e.g., **Output Configuration**, **Input Selection**, **Rate Status**, etc.) and allows you to change or adjust them.
 
 ### Channel A/B
 

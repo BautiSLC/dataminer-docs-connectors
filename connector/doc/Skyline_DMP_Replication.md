@@ -47,7 +47,7 @@ The probe is subscribed to all element states, so the moment an alarm state chan
 
 The table is updated every hour and the states are directly updated based on incoming subscription updates. At the bottom of the page, there is also a button to force a **manual Refresh**.
 
-Finally, the page allows you to modify the element state of the remote elements, i.e. Start, Stop, Pause and Restart.
+Finally, the page allows you to modify the element state of the remote elements, i.e., Start, Stop, Pause and Restart.
 
 ### DMP Parameters
 

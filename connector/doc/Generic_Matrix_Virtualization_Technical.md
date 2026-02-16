@@ -280,9 +280,9 @@ The default behavior of the virtual matrix is to only send the crosspoint change
 
 #### Tie Lines
 
-This page contains the **Tie Lines - Usage** table. This represents the tie lines between the source matrices. It shows statistics on how many tie lines there are and how many are available. A tie line is considered in use when it is part of a valid path, i.e. a virtual input is connected to a virtual output using the tie line. The Tie Lines - Usage table does not take into account whether a tie line has its Operational State set to Disabled (see "Creating tie lines" in the range 4.0.0.x configuration section above).
+This page contains the **Tie Lines - Usage** table. This represents the tie lines between the source matrices. It shows statistics on how many tie lines there are and how many are available. A tie line is considered in use when it is part of a valid path, i.e., a virtual input is connected to a virtual output using the tie line. The Tie Lines - Usage table does not take into account whether a tie line has its Operational State set to Disabled (see "Creating tie lines" in the range 4.0.0.x configuration section above).
 
-The **Tie Lines - Connections** table shows a line for each tie line, the GUID of the connected input, and whether it is in use or not (Usage State). A tie line is considered in use when it is part of a valid path, i.e. a virtual input is connected to a virtual output using the tie line. The Tie Lines - Connections table does not take into account whether a tie line has its Operational State set to Disabled (see "Creating tie lines" in the range 4.0.0.x configuration section above).
+The **Tie Lines - Connections** table shows a line for each tie line, the GUID of the connected input, and whether it is in use or not (Usage State). A tie line is considered in use when it is part of a valid path, i.e., a virtual input is connected to a virtual output using the tie line. The Tie Lines - Connections table does not take into account whether a tie line has its Operational State set to Disabled (see "Creating tie lines" in the range 4.0.0.x configuration section above).
 
 #### SRM Configuration
 

@@ -44,7 +44,7 @@ B. Change Protocol:
 
 C. Save Protocol:
 
-   1. **Save Folder**: By default *C:\Skyline DataMiner\Protocols\\* You can update this to any other folder on your local machine. The folder does not need to exist, just the logical drive (e.g. C:\\ etc.).
+   1. **Save Folder**: By default *C:\Skyline DataMiner\Protocols\\* You can update this to any other folder on your local machine. The folder does not need to exist, just the logical drive (e.g., C:\\ etc.).
 
    1. **Protocol Name Suffix**: By default *Not Initialized*. You can update this value to any given name. This will append the chosen **Protocol Name** with the corresponding **Protocol Name Suffix**. Can be left blank.
 
@@ -91,7 +91,7 @@ B. Change Multiple Protocols:
 
 C. Save Multiple Protocols:
 
-   1. **Save Folder**: By default *C:\Skyline DataMiner\Protocols\\* You can update this to any other folder on your local machine. The folder does not need to exist, just the logical drive (e.g. C:\\ etc.).
+   1. **Save Folder**: By default *C:\Skyline DataMiner\Protocols\\* You can update this to any other folder on your local machine. The folder does not need to exist, just the logical drive (e.g., C:\\ etc.).
 
    1. **Protocol Name Suffix**: By default *Not Initialized*, You can update this value to any given name. This will append the chosen **Protocol Name** with the corresponding **Protocol Name Suffix**. It can be left blank.
 

@@ -6,7 +6,7 @@ uid: Connector_help_Arris_E6000_CCAP_Platform
 
 The Arris E6000 CCAP Platform is designed to support integrated-access architectures, DOCSIS 3.0 and 3.1, all video types, and software-defined networking.
 
-This connector allows you to collect data from the Arris E6000 CCAP Platform along with complementary data from auxiliary connectors, e.g. the Generic CM Collector. This data is then centralized within the connector and used by DataMiner EPM for aggregation actions.
+This connector allows you to collect data from the Arris E6000 CCAP Platform along with complementary data from auxiliary connectors, e.g., the Generic CM Collector. This data is then centralized within the connector and used by DataMiner EPM for aggregation actions.
 
 ## About
 

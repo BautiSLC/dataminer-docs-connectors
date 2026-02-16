@@ -77,7 +77,7 @@ The element using this connector consists of the data pages detailed below.
 
 ### General
 
-This page allows you to monitor and configure basic information about the device, e.g. **System Description**, **Firmware Version**.
+This page allows you to monitor and configure basic information about the device, e.g., **System Description**, **Firmware Version**.
 
 It can also be used to request the execution of commands to the time server.
 
@@ -88,7 +88,7 @@ The page also contains page buttons to the following subpages:
 
 ### Network
 
-This page allows you to monitor all interfaces and their metrics, e.g. **Bit Rate**, **Maximum Transmission Unit**.
+This page allows you to monitor all interfaces and their metrics, e.g., **Bit Rate**, **Maximum Transmission Unit**.
 
 It also contains page buttons to the following subpages:
 
@@ -103,25 +103,25 @@ It also contains page buttons to the following subpages:
 
 ### Notification
 
-This page allows you to configure notification settings for the device, e.g. **Email notifications**, **External Syslog Server**.
+This page allows you to configure notification settings for the device, e.g., **Email notifications**, **External Syslog Server**.
 
 ### Security
 
-This page allows you to configure basic security settings for the device, e.g. **Root Login**, **Network Discovery**.
+This page allows you to configure basic security settings for the device, e.g., **Root Login**, **Network Discovery**.
 
 ### SNMP
 
-This page allows you to configure SNMP settings for the device, e.g. **SNMP Contact**, **SNMP Retries**.
+This page allows you to configure SNMP settings for the device, e.g., **SNMP Contact**, **SNMP Retries**.
 
 It also contains page buttons to the following subpages:
 
 - **Trap Receiver:** Allows you to configure each trap receiver.
-- **Trap Configuration:** Allows you to enable signaling information for specific events, e.g. **Antenna Faulty**, **Fan Failure**.
-  Multiple signaling outputs can be configured, e.g. E-mail, SNMP, VP100. A comma-separated string stating the signaling outputs is to be set for each event.
+- **Trap Configuration:** Allows you to enable signaling information for specific events, e.g., **Antenna Faulty**, **Fan Failure**.
+  Multiple signaling outputs can be configured, e.g., E-mail, SNMP, VP100. A comma-separated string stating the signaling outputs is to be set for each event.
 
 ### NTP
 
-This page allows you to monitor and configure NTP information regarding the device, e.g. **Trust Time**, **Client Counter Duration**. It displays statistics regarding the client counter of the device.
+This page allows you to monitor and configure NTP information regarding the device, e.g., **Trust Time**, **Client Counter Duration**. It displays statistics regarding the client counter of the device.
 
 It also contains page buttons to the following subpages:
 
@@ -131,7 +131,7 @@ It also contains page buttons to the following subpages:
 
 ### PTP
 
-This page allows you to monitor PTP parameters for each PTPv2 module, e.g. **PTP seconds**, **Delay Mechanism**. The PTP table allows you to **remove DVEs** for modules that have been deleted. An "Auto-remove DVEs" option is also available for the automatic removal of DVEs.
+This page allows you to monitor PTP parameters for each PTPv2 module, e.g., **PTP seconds**, **Delay Mechanism**. The PTP table allows you to **remove DVEs** for modules that have been deleted. An "Auto-remove DVEs" option is also available for the automatic removal of DVEs.
 
 The page also contains page buttons to the following subpages:
 
@@ -140,7 +140,7 @@ The page also contains page buttons to the following subpages:
 
 ### Sync Monitoring
 
-This page allows you to monitor the status nodes and their configuration, e.g. **Location**, **Offset Limit**.
+This page allows you to monitor the status nodes and their configuration, e.g., **Location**, **Offset Limit**.
 
 However, for this, the **Web Interface** login credentials on the **Security page** must be filled in.
 

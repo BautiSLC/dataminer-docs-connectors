@@ -34,7 +34,7 @@ This connector uses a Simple Network Management Protocol (SNMP) connection and a
 
 **SNMP CONNECTION**:
 
-- **IP address/host**: The polling IP of the device, e.g. *10.11.12.13.*
+- **IP address/host**: The polling IP of the device, e.g., *10.11.12.13.*
 
 **SNMP Settings**:
 
@@ -44,8 +44,8 @@ This connector uses a Simple Network Management Protocol (SNMP) connection and a
 
 **HTTP CONNECTION**:
 
-- **IP address/host**: The polling IP or URL of the destination, e.g. *10.11.12.13.*
-- **IP port**: The port of the destination, e.g. *80.*
+- **IP address/host**: The polling IP or URL of the destination, e.g., *10.11.12.13.*
+- **IP port**: The port of the destination, e.g., *80.*
 
 ### Configuration
 

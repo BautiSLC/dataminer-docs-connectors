@@ -84,7 +84,7 @@ This is a subpage of the UMDs page. Set the **UMD** parameters to the desired va
 
 **Bulk UMD Update JSON** allows you to do a bulk update. Not only will the values be added or updated in the **UMDs** table, they will also immediately be sent to the device. Missing properties will be filled in with the default values if the UMD does not exist yet. If **Exclusive Update** is *Enabled*, all UMD IDs that are not in this bulk message will have their **Admin State** set to *Down*.
 
-The format is JSON and can be a single object or an array of objects containing the fields described below. Only Index is mandatory. Objects are enclosed in curly braces (e.g. *{ Object }* ), while an array of objects is surrounded by square brackets (e.g. *\[ {object1}, {object2} \]* ). For more information on the format, please refer to <http://www.json.org/>.
+The format is JSON and can be a single object or an array of objects containing the fields described below. Only Index is mandatory. Objects are enclosed in curly braces (e.g., *{ Object }* ), while an array of objects is surrounded by square brackets (e.g., *\[ {object1}, {object2} \]* ). For more information on the format, please refer to <http://www.json.org/>.
 
 - **"Text"**: string, Empty or current if null
 

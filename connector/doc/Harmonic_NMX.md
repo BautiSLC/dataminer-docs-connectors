@@ -241,7 +241,7 @@ This page also contains the following page buttons:
 
   Note: This generates extra traffic, so we recommend that you add as few platform types as possible.
 
-- **Exclude DVE**: Displays a table with the platform types that should be **excluded from the Platform Table**, i.e. the platform types for which no DVE should be created. By default, the values "INPUT_DEVICE" and "OUTPUT_DEVICE" are filled in. Adding and removing rows in this table is done in the same way as for the Extra Poll Table.
+- **Exclude DVE**: Displays a table with the platform types that should be **excluded from the Platform Table**, i.e., the platform types for which no DVE should be created. By default, the values "INPUT_DEVICE" and "OUTPUT_DEVICE" are filled in. Adding and removing rows in this table is done in the same way as for the Extra Poll Table.
 
 For **range 4.1.0.x - 4.1.1.x** only: For DVEs, it is possible to configure whether child elements should be deleted automatically when they are no longer present in the Harmonic NMX. To do so, configure the **DVE Automatic Deletion** parameter on the **Platform** page. You can also configure the DVE child's name and the view where it should be located, using the **DVE Name** and **DVE View** columns in the **Devices** table.
 

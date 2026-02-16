@@ -20,7 +20,7 @@ The read and write actions occur over two different connections for security rea
 
 This connection is used to send the GetIncident, GetPain and GetRLog SOAP requests.
 
-- **IP address/host**: The polling IP or URL of the destination, e.g. *10.11.12.13.*
+- **IP address/host**: The polling IP or URL of the destination, e.g., *10.11.12.13.*
 - **IP port**: A fixed destination port has been set to *80.*
 - **Bus address**: This field can be used to bypass the proxy. To do so, fill in the value *bypassproxy*.
 - **Timeout**: Although the HTTP interface internally follows the TCP/IP standards, please fill in a high enough value to receive large responses.
@@ -30,7 +30,7 @@ This connection is used to send the GetIncident, GetPain and GetRLog SOAP reques
 
 This connection is used to send the write SOAP requests: CallServerMethod, login, logout and serverstatus. CallServerMethod has the methods *z_incident_create*, *z_incident_update_description*, *z_incident_set_outage_stop* and *z_rlog_create*.
 
-- **IP address/host**: The polling IP or URL of the destination, e.g. *10.11.12.13.*
+- **IP address/host**: The polling IP or URL of the destination, e.g., *10.11.12.13.*
 - **IP port**: A fixed destination port has been set to *8080.*
 - **Bus address**: This field can be used to bypass the proxy. To do so, fill in the value *bypassproxy*.
 - **Timeout**: Although the HTTP interface internally follows the TCP/IP standards, please fill in a high enough value so that ServiceDesk can process the requests in case there are many affected services.

@@ -36,7 +36,7 @@ This connector uses a virtual connection and does not require any input during e
 
 ### Initialization
 
-For a **Skyline EPM DOCSIS WM** element to function, the **Skyline EPM Platform** solution and a **Passive Retrieval** element (e.g. Telefonica por Cable S.A de C.V. Geomarketing DB) must be installed in the DMS. The EPM solution and Passive Retrieval elements create the necessary input CSV files.
+For a **Skyline EPM DOCSIS WM** element to function, the **Skyline EPM Platform** solution and a **Passive Retrieval** element (e.g., Telefonica por Cable S.A de C.V. Geomarketing DB) must be installed in the DMS. The EPM solution and Passive Retrieval elements create the necessary input CSV files.
 
 In addition, the following scripts must be installed: **EPMBeToWm** and **WmToEPMBe.** These are required for the communication between the **Skyline EPM Platform DOCSIS** back end and the **Skyline EPM Platform DOCSIS WF** element.
 

@@ -40,7 +40,7 @@ This connector uses a Simple Network Management Protocol (SNMP) connection and r
 
 SNMP CONNECTION:
 
-- **IP address/host**: The polling IP of the device. \[e.g. 10.10.15.1\]
+- **IP address/host**: The polling IP of the device. \[e.g., 10.10.15.1\]
 
 SNMP Settings:
 
@@ -56,11 +56,11 @@ This page contains the **Modules Info** Table. This table contains all the cards
 
 ### General
 
-This page contains the general parameters: e.g. **Customer Name**, **Customer Location**, ...
+This page contains the general parameters: e.g., **Customer Name**, **Customer Location**, ...
 
 ### Controller
 
-This page contains the parameters for the controller. This page is divided in the **status** parameters, the **alarm** parameters, the **configuration** parameters and the **network configuration** parameters. e.g. **Controller Status PSU 1 Voltage**, **Controller Config Date Time**, **Controller Config Network Ip Address**, etc.
+This page contains the parameters for the controller. This page is divided in the **status** parameters, the **alarm** parameters, the **configuration** parameters and the **network configuration** parameters. e.g., **Controller Status PSU 1 Voltage**, **Controller Config Date Time**, **Controller Config Network Ip Address**, etc.
 
 ### Traps
 

@@ -55,7 +55,7 @@ The web interface is only accessible when the client machine has network access 
 
 ### General
 
-The General page contains general information about the device as well as GPIO counters. It also allows you to select how you want to access the web interface of the device, i.e. through an HTTP or an HTTPS connection.
+The General page contains general information about the device as well as GPIO counters. It also allows you to select how you want to access the web interface of the device, i.e., through an HTTP or an HTTPS connection.
 
 The following page buttons are available:
 

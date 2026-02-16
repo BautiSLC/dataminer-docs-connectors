@@ -46,7 +46,7 @@ This connector uses a Simple Network Management Protocol (SNMP) connection and r
 
 SNMP CONNECTION:
 
-- **IP address/host**: The main polling IP of the device e.g. *10.10.250.150*.
+- **IP address/host**: The main polling IP of the device e.g., *10.10.250.150*.
 - **Device address**: Not required
 
 SNMP Settings:
@@ -61,7 +61,7 @@ This connector uses a Simple Network Management Protocol (SNMP) connection and r
 
 SNMP CONNECTION:
 
-- **IP address/host**: The backup polling IP of the device e.g. *10.10.250.149*.
+- **IP address/host**: The backup polling IP of the device e.g., *10.10.250.149*.
 - **Device address**: Not required
 
 SNMP Settings:

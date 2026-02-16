@@ -69,40 +69,40 @@ The following options are available in the right-click menu for the **Ports** ta
 - **Refresh**: Refresh the selected port's information.
 - **Refresh Keys**: Refresh the selected port's key information.
 - **Refresh functions**: Refresh the selected port's function information.
-- **Call to Conference**: Create a call-to-conference virtual function for the selected port with the provided settings (e.g. virtual function type, conference name, priority, talk and listen privileges, etc.).
-- **Call to Group**: Create a call-to-group virtual function for the selected port with the provided settings (e.g. virtual function type, group name, priority, etc.).
-- **Call to Port (Local)**: Create a local call-to-port function for the selected port with the provided settings (e.g. virtual function type, port name, priority, etc.).
-- **Call to Port (Trunking)**: Create a trunking call-to-port function for the selected port with the provided settings (e.g. virtual function type, port name, priority, etc.).
+- **Call to Conference**: Create a call-to-conference virtual function for the selected port with the provided settings (e.g., virtual function type, conference name, priority, talk and listen privileges, etc.).
+- **Call to Group**: Create a call-to-group virtual function for the selected port with the provided settings (e.g., virtual function type, group name, priority, etc.).
+- **Call to Port (Local)**: Create a local call-to-port function for the selected port with the provided settings (e.g., virtual function type, port name, priority, etc.).
+- **Call to Port (Trunking)**: Create a trunking call-to-port function for the selected port with the provided settings (e.g., virtual function type, port name, priority, etc.).
 
 ### Keys
 
 The following options are available in the right-click menu for the **Keys** table:
 
-- **Edit**: Edit the selected key (e.g. label, key mode, latching timeout, etc.).
-- **Call to Conference**: Create a call-to-conference function for the selected key with the provided settings (e.g. conference name, priority, talk and listen privileges, etc.).
-- **Call to Group**: Create a call-to-group function for the selected key with the provided settings (e.g. group name, priority, etc.).
-- **Call to Port (Local)**: Create a local call-to-port function for the selected key with the provided settings (e.g. port name, priority, etc.).
-- **Call to Port (Trunking)**: Create a trunking call-to-port function for the selected key with the provided settings (e.g. port name, priority, etc.).
+- **Edit**: Edit the selected key (e.g., label, key mode, latching timeout, etc.).
+- **Call to Conference**: Create a call-to-conference function for the selected key with the provided settings (e.g., conference name, priority, talk and listen privileges, etc.).
+- **Call to Group**: Create a call-to-group function for the selected key with the provided settings (e.g., group name, priority, etc.).
+- **Call to Port (Local)**: Create a local call-to-port function for the selected key with the provided settings (e.g., port name, priority, etc.).
+- **Call to Port (Trunking)**: Create a trunking call-to-port function for the selected key with the provided settings (e.g., port name, priority, etc.).
 - **Delete All functions**: Deletes all functions related to the selected key.
 
 ### Virtual Keys
 
 The following options are available in the right-click menu for the **Virtual Keys** table:
 
-- **Edit**: Edit the selected virtual key (e.g. key mode, latching timeout, etc.).
+- **Edit**: Edit the selected virtual key (e.g., key mode, latching timeout, etc.).
 - **Delete**: Delete the selected virtual key.
-- **Call to Conference**: Create a call-to-conference function for the selected virtual key with the provided settings (e.g. conference name, priority, talk and listen privileges, etc.).
-- **Call to Group**: Create a call-to-group function for the selected virtual key with the provided settings (e.g. group name, priority, etc.).
-- **Call to Port (Local)**: Create a local call-to-port function for the selected virtual key with the provided settings (e.g. port name, priority, etc.).
-- **Call to Port (Trunking)**: Create a trunking call-to-port function for the selected virtual key with the provided settings (e.g. port name, priority, etc.).
+- **Call to Conference**: Create a call-to-conference function for the selected virtual key with the provided settings (e.g., conference name, priority, talk and listen privileges, etc.).
+- **Call to Group**: Create a call-to-group function for the selected virtual key with the provided settings (e.g., group name, priority, etc.).
+- **Call to Port (Local)**: Create a local call-to-port function for the selected virtual key with the provided settings (e.g., port name, priority, etc.).
+- **Call to Port (Trunking)**: Create a trunking call-to-port function for the selected virtual key with the provided settings (e.g., port name, priority, etc.).
 - **Delete All functions**: Deletes all functions related to the selected virtual key.
 
 ### Conferences
 
 The following options are available in the right-click menu for the **Conferences** table:
 
-- **Create**: Create a conference with the provided settings (e.g. name, label, alias, etc.).
-- **Edit**: Edit the selected conference (e.g. name, label, alias, etc.).
+- **Create**: Create a conference with the provided settings (e.g., name, label, alias, etc.).
+- **Edit**: Edit the selected conference (e.g., name, label, alias, etc.).
 - **Delete**: Delete the selected conference.
 - **Refresh**: Refresh the selected conference's information.
 
@@ -110,8 +110,8 @@ The following options are available in the right-click menu for the **Conference
 
 The following options are available in the right-click menu for the **Groups** table:
 
-- **Create**: Create a group with the provided settings (e.g. name, label, etc.).
-- **Edit**: Edit the selected group (e.g. name, label, etc.).
+- **Create**: Create a group with the provided settings (e.g., name, label, etc.).
+- **Edit**: Edit the selected group (e.g., name, label, etc.).
 - **Delete**: Delete the selected group.
 - **Refresh**: Refresh the selected group's information.
 
@@ -123,12 +123,12 @@ The following options are available in the right-click menu for the **Functions*
 
 The following options are available in the right-click menu for the **Call to Conference Functions** table:
 
-- **Edit**: Edit the selected call-to-conference function (e.g. priority, talk and listen privileges, etc.).
+- **Edit**: Edit the selected call-to-conference function (e.g., priority, talk and listen privileges, etc.).
 - **Delete**: Delete the selected call-to-conference function.
 
 The following options are available in the right-click menu for the **Call to Group Functions** table:
 
-- **Edit**: Edit the selected call-to-group function (e.g. priority, etc.).
+- **Edit**: Edit the selected call-to-group function (e.g., priority, etc.).
 - **Delete**: Delete the selected call-to-group function.
 
 The following options are available in the right-click menu for the **Call to Port Functions** table:

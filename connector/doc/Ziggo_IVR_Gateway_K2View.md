@@ -8,7 +8,7 @@ The Ziggo IVR Gateway creates entries in the IVR (Interactive Voice Recording) v
 
 The Ziggo IVR Gateway will receive commands from elements or automation scripts that need to be sent to IVR via the K2View MiddleWare (using REST calls). Currently this connector creates, updates and closes tickets and receives the **Row ID** when a call succeeded.
 
-The **log file** will contain additional logging (e.g. required data is missing, wrong SOAP response format, etc.). There is an **offload mechanism** available to store the created tickets on the local system as a CSV file.
+The **log file** will contain additional logging (e.g., required data is missing, wrong SOAP response format, etc.). There is an **offload mechanism** available to store the created tickets on the local system as a CSV file.
 
 ## About
 

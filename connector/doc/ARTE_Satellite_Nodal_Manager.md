@@ -97,7 +97,7 @@ Each of them needs to be configured using one of the following formats:
 - **Parameter** ID of the **read**
 - **Parameter** ID of the **write** (=**Column** ID) / **parameter** ID of the **read** (= **Table** ID) : **Column** Index : Key
 
-  e.g. 110/100:2:1_A
+  e.g., 110/100:2:1_A
 
 When one of the items in the format does not exist it may be left empty.
 E.g.: 110/100
@@ -157,7 +157,7 @@ The configuration of the LO Frequency with its minimum and maximum, as explained
 
 ### L-Band Matrix Destinations Page
 
-This page displays the main table to configure antennas via the Visio visual overview, the **Output Table**. It contains a list of all L-Band outputs with their currently connected inputs. You can configure the linked device with the **DataMiner Element Name** to each output. The type of this device, e.g. *IRD* or *SA* for Spectrum Analyzers, can be set via the **Output Element Type** column.
+This page displays the main table to configure antennas via the Visio visual overview, the **Output Table**. It contains a list of all L-Band outputs with their currently connected inputs. You can configure the linked device with the **DataMiner Element Name** to each output. The type of this device, e.g., *IRD* or *SA* for Spectrum Analyzers, can be set via the **Output Element Type** column.
 
 These linked devices can be given an alias that is displayed in the Visio visual overview for easier use. The current linked antenna and satellite are again retrieved automatically according to the configurations made in the **Antenna Table**.
 

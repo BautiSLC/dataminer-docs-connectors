@@ -87,7 +87,7 @@ This page contains the parameters related to the configured NTP, including clien
 
 ### General
 
-This page contains system and DMA information parameters, i.e. **System Name**, **Element ID**, **Element Name** and **IP Address**.
+This page contains system and DMA information parameters, i.e., **System Name**, **Element ID**, **Element Name** and **IP Address**.
 
 ### Configurations
 
@@ -99,7 +99,7 @@ This page contains the **Parameters** **Table**.
 
 ### System
 
-This page contains additional system parameters, i.e. **System Overall Status**, **Software Version** and **System License and SLA Status**.
+This page contains additional system parameters, i.e., **System Overall Status**, **Software Version** and **System License and SLA Status**.
 
 ### Automation
 

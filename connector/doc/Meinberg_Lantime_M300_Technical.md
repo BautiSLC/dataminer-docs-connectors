@@ -54,7 +54,7 @@ SCP CONNECTION:
 
 ### General Page
 
-This page displays general information about the device, e.g. **System Description**, **Up Time**, **Firmware Version**.
+This page displays general information about the device, e.g., **System Description**, **Up Time**, **Firmware Version**.
 
 The page also contains the following page buttons:
 
@@ -65,7 +65,7 @@ The page also contains the following page buttons:
 
 ### Network Page
 
-On this page, you can configure and monitor the device's network settings, e.g. **Ethernet Hostname**, **Ethernet IPv4 Gateway**, **Link Mode**.
+On this page, you can configure and monitor the device's network settings, e.g., **Ethernet Hostname**, **Ethernet IPv4 Gateway**, **Link Mode**.
 
 The page also contains three page buttons:
 

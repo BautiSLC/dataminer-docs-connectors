@@ -30,7 +30,7 @@ This connector uses a virtual connection and does not require any input during e
 
 ### Initialization
 
-Specify the **Booking Manager** element name of the related virtual platform on the **General** page, so that the connector can retrieve the necessary settings (e.g. the logging location).
+Specify the **Booking Manager** element name of the related virtual platform on the **General** page, so that the connector can retrieve the necessary settings (e.g., the logging location).
 
 ### Redundancy
 

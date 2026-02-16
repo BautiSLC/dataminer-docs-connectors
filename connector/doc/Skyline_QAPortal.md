@@ -57,7 +57,7 @@ If you have just added a new regression test, you may need to use the **Refresh 
 
 If your regression test has input parameters, configure these in the **Input** column of the **Regression Tests** table.
 
-If you have not yet defined any **input group** (i.e. the dropdown is empty), create a new input group:
+If you have not yet defined any **input group** (i.e., the dropdown is empty), create a new input group:
 
 1. After you have clicked the pencil icon in the **Input** column of the **Regression Tests** table, click **...**.
 

@@ -20,7 +20,7 @@ The Roku ECP (External Control Protocol) connector enables communication between
 
 - **Active app tracking**: Monitors the currently active app or channel and provides automatic updates when users switch applications on the device.
 
-- **Remote key input support**: Enables sending virtual key presses (e.g. Home, Up, Down, Back) to control the Roku interface directly from DataMiner.
+- **Remote key input support**: Enables sending virtual key presses (e.g., Home, Up, Down, Back) to control the Roku interface directly from DataMiner.
 
 ## Use Cases
 

@@ -20,8 +20,8 @@ The protocol also has **alarming** and **trending**.
 
 **SERIAL Connection:**
 
-- **IP address/host**: the polling IP or URL of the destination e.g. 10.15.1.80
-- **IP port**: the port of the destination e.g. 4003.
+- **IP address/host**: the polling IP or URL of the destination e.g., 10.15.1.80
+- **IP port**: the port of the destination e.g., 4003.
 - **Bus address**: this field is not necessary to be filled.
 
 ## Usage
