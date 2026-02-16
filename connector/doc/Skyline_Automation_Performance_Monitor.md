@@ -2,7 +2,7 @@
 uid: Connector_help_Skyline_Automation_Performance_Monitor
 ---
 
-# Skyline automation Performance Monitor
+# Skyline Automation Performance Monitor
 
 This protocol can be used to monitor the performance of automation scripts on a DMA.
 
