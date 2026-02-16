@@ -17,7 +17,7 @@ The Skyline DMP Replication connector will periodically poll the DMP information
 | Range | Description | DCF Integration | Cassandra Compliant |
 |--|--|--|--|
 | 1.0.0.x | Initial version | No | No |
-| 1.0.1.x | - Updated protocol to Unicode.<br>- Added Views & Services Table with 5 dynamic columns per table (Elements, Alarms, Services & Views). A filter functionality is also available.<br>- Added Message Overview Table. This table will be used to transfer sets between HQ & DMP.<br>- Correlation and automation will handle the sets on the HQ via an alarm trigger on the message table on the replicated element. | No | No |
+| 1.0.1.x | - Updated protocol to Unicode.<br>- Added Views & Services Table with 5 dynamic columns per table (Elements, Alarms, Services & Views). A filter functionality is also available.<br>- Added Message Overview Table. This table will be used to transfer sets between HQ & DMP.<br>- Correlation and Automation will handle the sets on the HQ via an alarm trigger on the message table on the replicated element. | No | No |
 
 ## Installation and configuration
 
