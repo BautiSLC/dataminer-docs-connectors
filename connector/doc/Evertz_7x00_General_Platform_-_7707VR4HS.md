@@ -21,5 +21,5 @@ The default name of the element is "7707VR4HS.x", where "x" is the slot where th
 The DVE consists of the following data pages:
 
 - **General**: Displays card data and **AFD** information, such as the **Slot Number**, **Card Type**, **Card Status**, etc.
-- **Video**: Displays **Video** information, i.e. the **detected format**.
+- **Video**: Displays **Video** information, i.e., the **detected format**.
 - **Alarms**: Contains a table with the following alarms: **Optical Link Loss**, **Optical Link Error**, **Optical Power Threshold**, and **Video**. For each alarm, the **Send Trap** parameter allows you to enable/disable traps for that fault.

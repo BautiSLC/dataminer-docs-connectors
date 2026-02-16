@@ -114,7 +114,7 @@ To have "Not available" rows automatically removed from the tables, enable the o
 
 - **If the status for a row is disabled in the configuration table, there will be no corresponding row in the status table.**
 
-  If there is no status data for a certain module (i.e. the status table is empty), check in the configuration table of that module if the status parameter for the corresponding row has been set to enabled.
+  If there is no status data for a certain module (i.e., the status table is empty), check in the configuration table of that module if the status parameter for the corresponding row has been set to enabled.
 
 - **When the element has just been restarted, it is possible that the settings are carried out with a delay.**
 
@@ -126,7 +126,7 @@ To have "Not available" rows automatically removed from the tables, enable the o
 
 - Old history log files in *C:\Skyline DataMiner\Logging\AppearTV\\element name\]\\History* are removed automatically when they are older than one week.
 
-- **SOAP responses** are only logged in *C:\Skyline DataMiner\Logging\AppearTV\\element name\]\\SOAP Responses\get\[\].xml* if the parameter **Log SOAP Responses** is **Enabled** on the General page. The number after the underscore in the name of the command refers to the controller card (1: main controller card, 2: backup controller card), e.g. *getService\_**1**.xml*.
+- **SOAP responses** are only logged in *C:\Skyline DataMiner\Logging\AppearTV\\element name\]\\SOAP Responses\get\[\].xml* if the parameter **Log SOAP Responses** is **Enabled** on the General page. The number after the underscore in the name of the command refers to the controller card (1: main controller card, 2: backup controller card), e.g., *getService\_**1**.xml*.
 
 - **SOAP set commands** are always logged in *C:\Skyline DataMiner\Logging\AppearTV\\element name\]\\SOAP SetCommands\set\[\].xml*.
 

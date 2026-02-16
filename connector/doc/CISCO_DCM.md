@@ -961,7 +961,7 @@ The connections between a port and a transport stream will have the following pr
 
 When alternate sources are included, extra connections will be created between an output service and a "source" service. This is done by adding a connection between the source interface and the alternate interface and from the alternate interface to the output interface. This first connection has an attribute "IsBackup=False" and the second connection (from alternate to output) has no attributes.
 
-Depending on the nature of the source service (processing stream or input stream), the signal will be linked to an interface of the output or input service table. Alternating sources can e.g. be used for outputs containing signal X during the day and signal Y during the night. You can find them in the web interface by right-clicking an output service in the "Service" tab and selecting "Advanced Configuration". The alternate sources are especially important because merged services and backup services are linked to alternate sources instead of directly to output services.
+Depending on the nature of the source service (processing stream or input stream), the signal will be linked to an interface of the output or input service table. Alternating sources can e.g., be used for outputs containing signal X during the day and signal Y during the night. You can find them in the web interface by right-clicking an output service in the "Service" tab and selecting "Advanced Configuration". The alternate sources are especially important because merged services and backup services are linked to alternate sources instead of directly to output services.
 
 #### Merged Services
 

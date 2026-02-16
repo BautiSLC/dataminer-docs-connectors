@@ -28,7 +28,7 @@ The NetInsight Nimbra Edge connector for DataMiner provides full integration wit
 
 **Challenge**: A broadcaster has multiple ingest points across regions, each delivering live streams using different protocols. Monitoring them individually is complex and error-prone.
 
-**Solution**: With the Nimbra Edge connector, all inputs are automatically discovered and displayed within the DataMiner interface. Operators can view real-time metrics, check input health (e.g. TR 101 290), and categorize them by region or type.
+**Solution**: With the Nimbra Edge connector, all inputs are automatically discovered and displayed within the DataMiner interface. Operators can view real-time metrics, check input health (e.g., TR 101 290), and categorize them by region or type.
 
 **Benefit**: One centralized view for all input streams, improving operational efficiency and reducing the time to identify faulty sources.
 

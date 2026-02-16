@@ -39,7 +39,7 @@ This connector uses an HTTP connection and requires the following input during e
 
 HTTP CONNECTION:
 
-- **IP address/host**: The hostname of the UDO platform, e.g. *https://prepro2.udo-tt.com.*
+- **IP address/host**: The hostname of the UDO platform, e.g., *https://prepro2.udo-tt.com.*
 - **IP port**: The IP port of the destination (default: *443*).
 
 ### Initialization

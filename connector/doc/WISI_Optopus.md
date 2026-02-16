@@ -55,7 +55,7 @@ This connector uses two Simple Network Management Protocol (SNMP) connections an
 
 **SNMP Connection**:
 
-- **IP address/host**: The polling IP of the device, e.g. *10.11.12.13.*
+- **IP address/host**: The polling IP of the device, e.g., *10.11.12.13.*
 - **Device address**: Not used.
 
 **SNMP Settings**:
@@ -66,7 +66,7 @@ This connector uses two Simple Network Management Protocol (SNMP) connections an
 
 **SnmpConnection2:**
 
-- **IP address/host**: The polling IP of the device, e.g. *10.11.12.13.*
+- **IP address/host**: The polling IP of the device, e.g., *10.11.12.13.*
 - **Device address**: Not used.
 
 **SNMP Settings**:

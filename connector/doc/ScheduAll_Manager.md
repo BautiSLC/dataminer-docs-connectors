@@ -10,7 +10,7 @@ ScheduAll is an application running on Windows OS that manages bookings (a.k.a. 
 
 This connector allows communication to and from ScheduAll via a web service API and/or via an interop chorus API.
 
-The **web service** API is an XML interface over HTTP. DataMiner can send requests and receives responses accordingly. The interop chorus API works in a different way. Via **interop**, ScheduAll sends data in a specific format to DataMiner without getting a request first (i.e. eventing). The structure of this message is defined via message templates in ScheduAll.
+The **web service** API is an XML interface over HTTP. DataMiner can send requests and receives responses accordingly. The interop chorus API works in a different way. Via **interop**, ScheduAll sends data in a specific format to DataMiner without getting a request first (i.e., eventing). The structure of this message is defined via message templates in ScheduAll.
 
 ### Version Info
 

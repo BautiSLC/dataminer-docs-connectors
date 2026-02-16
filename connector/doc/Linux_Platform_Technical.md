@@ -20,7 +20,7 @@ With this connector, you can monitor servers running Linux OS with SSH or with S
 
 ### SNMP Connection
 
-- **IP address/host**: The polling IP of the device, e.g. *10.11.12.13.*
+- **IP address/host**: The polling IP of the device, e.g., *10.11.12.13.*
 - **Port number:** The port of the connected device, by default 161.
 - **Get community string:** The community string in order to read from the device, by default *public*.
 - **Set community string:** The community string in order to set to the device, by default *private*.

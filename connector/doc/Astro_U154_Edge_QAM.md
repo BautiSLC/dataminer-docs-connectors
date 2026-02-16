@@ -37,22 +37,22 @@ In either case, the **SNMP** interface collects the traps emitted by the device,
 SERIAL Connection:
 
 - **IP address/host**: The IP address of the Astro U100 Controller.
-- **IP port**: The port of the destination, e.g. *80*.
-- **Bus address**: The IP address of the U154. In addition, "*ByPassProxy*" must be filled in, in order to bypass any possible proxy that could block the HTTP communication. The two fields must be separated by a semicolon, e.g. *ByPassProxy;10.11.12.13.*
+- **IP port**: The port of the destination, e.g., *80*.
+- **Bus address**: The IP address of the U154. In addition, "*ByPassProxy*" must be filled in, in order to bypass any possible proxy that could block the HTTP communication. The two fields must be separated by a semicolon, e.g., *ByPassProxy;10.11.12.13.*
 
 #### Serial Connection for Direct Communication
 
 SERIAL Connection:
 
 - **IP address/host**: The IP address of the U154.
-- **IP port**: The port of the destination, e.g. *80*.
+- **IP port**: The port of the destination, e.g., *80*.
 - **Bus address**: This field can be used to bypass the proxy. To do so, fill in the value *ByPassProxy*.
 
 #### SNMP Connection
 
 SNMP Connection:
 
-- **IP Address/host**: The polling IP of the U154, e.g. *10.11.12.13*.
+- **IP Address/host**: The polling IP of the U154, e.g., *10.11.12.13*.
 
 SNMP Settings:
 

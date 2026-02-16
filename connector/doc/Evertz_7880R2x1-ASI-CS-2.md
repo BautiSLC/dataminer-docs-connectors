@@ -176,8 +176,8 @@ This page contains the **PID Monitor table**, with the following parameters:
 
   NOTE: Even though this parameter is indexed by PID number, the index should be limited to the value returned by the **numOfKnownPIDs** parameter.
 
-- **PID Table Version**: Displays the version number of the table. Will only return the version for appropriate PIDs, e.g. PMT, PAT or CAT.
-- **PID Info**: Displays the specific information about the PID, e.g. video resolution, frame rate, etc.
+- **PID Table Version**: Displays the version number of the table. Will only return the version for appropriate PIDs, e.g., PMT, PAT or CAT.
+- **PID Info**: Displays the specific information about the PID, e.g., video resolution, frame rate, etc.
 - **Bit Rate**: Displays the bitrate for this PID.
 
   NOTE: Even though this parameter is indexed by PID number, the index should be limited to the value returned by **numOfKnownPIDs** parameter.

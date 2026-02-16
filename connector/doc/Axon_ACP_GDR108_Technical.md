@@ -40,7 +40,7 @@ All the information that can be useful for monitoring can be found in a tree vie
 
 The 1.0.0.x range of the Axon ACP GDR108 connector supports the usage of DCF.
 
-DCF can also be implemented through the DataMiner DCF user interface and through third-party DataMiner connectors (e.g. a manager).
+DCF can also be implemented through the DataMiner DCF user interface and through third-party DataMiner connectors (e.g., a manager).
 
 ### Interfaces
 

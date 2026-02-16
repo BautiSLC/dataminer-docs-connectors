@@ -66,7 +66,7 @@ Access tokens are used to authenticate a user on the service. In order to obtain
 
 When the login is successful, an access token is returned, which should be used in all other API calls. The access token expires after 5 minutes.
 
-A Swagger ([https://swagger.io](https://swagger.io/)) YAML file is available with a more detailed description of the API (i.e. the exact JSON-XML messages that are expected). This file can also be used to automatically create a client that can communicate with the API.
+A Swagger ([https://swagger.io](https://swagger.io/)) YAML file is available with a more detailed description of the API (i.e., the exact JSON-XML messages that are expected). This file can also be used to automatically create a client that can communicate with the API.
 
 > [!IMPORTANT]
 >
@@ -161,7 +161,7 @@ Delete booking:
 
 - **jobManager**: DMA/element ID or element name of the Job Manager element that initiated the execution of the script.
 - **bookingManager**: DMA/element ID or element name of the Booking Manager element that contains the booking that must be deleted.
-- **deleteBookingRequestData**: XML document with the data needed to remove the booking (i.e. booking ID).
+- **deleteBookingRequestData**: XML document with the data needed to remove the booking (i.e., booking ID).
 
 ### Differences Between API V1 and API V2
 

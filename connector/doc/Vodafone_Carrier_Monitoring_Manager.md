@@ -41,7 +41,7 @@ You can also assign the dedicated **Visio drawing** to the element for easy navi
 
 ## How to use
 
-- **Driver Status**: Will show *Not Busy* if no operation is being done or *Busy* if an operation is being executed (e.g. creating a new carrier).
+- **Driver Status**: Will show *Not Busy* if no operation is being done or *Busy* if an operation is being executed (e.g., creating a new carrier).
 - **Carrier Table**: In this table, you can add, update, or delete specific carriers via the right-click menu.
 - **Spectrum Monitor Table**: This table is automatically filled in with all available spectrum monitor elements and their measurement points.
 - **Configuration:** On this page, you can configure default values that will be used to configure carriers.

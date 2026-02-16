@@ -39,7 +39,7 @@ This connector uses an HTTP connection and requires the following input during e
 
 HTTP CONNECTION:
 
-- **IP address/host**: The polling IP or URL of the destination, e.g. `http://127.0.0.1:8002/api/v1/mux/inputs`
+- **IP address/host**: The polling IP or URL of the destination, e.g., `http://127.0.0.1:8002/api/v1/mux/inputs`
 - **IP port**: The IP port of the destination.
 - **Bus address**: *ByPassProxy*
 

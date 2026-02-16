@@ -81,7 +81,7 @@ It also contains the following page buttons:
 
 - **Audio**: Displays the following tables:
 
-  - **Decoder Audio Status** table: Contains statistics on each audio PID, i.e. the detected Audio PID, the audio codec type and the associated bitrate.
+  - **Decoder Audio Status** table: Contains statistics on each audio PID, i.e., the detected Audio PID, the audio codec type and the associated bitrate.
   - **Decoder Output Control** table: Allows you to configure the audio delay and the Dolby downmix mode. The Dolby downmix mode options include stereo downmix and full decode.
   - **Audio Decoder Output Mixer** table: Allows you to configure the mapping of decoded audio channels to the audio embedder.
 

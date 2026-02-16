@@ -37,8 +37,8 @@ This connector uses an HTTP connection and requires the following input during e
 
 HTTP CONNECTION:
 
-- **IP address/host**: The polling IP of the device, e.g. *bcam.broadcast.bskyb.com*.
-- **IP port**: The IP port of the device, e.g. *80*.
+- **IP address/host**: The polling IP of the device, e.g., *bcam.broadcast.bskyb.com*.
+- **IP port**: The IP port of the device, e.g., *80*.
 - **Bus address**: This should consist of the **Automation System** to monitor. If a proxy server needs to be bypassed, please specify *byPassProxy*. For example, *byPassProxy;SYSTEM1*.
 
 ## Usage

@@ -41,4 +41,4 @@ This page displays the product **Serial Number** and the **MAC Address**.
 
 ### System Faults
 
-At the top of this page, you can find the standalone fault for **Temperature Overheat**. The page also contains three other fault tables, i.e. the **Frame Faults Table**, **Over BW Faults Table**, and **Trap Faults Table**. All controls are the same in that you can **enable** or **disable** a particular trap with the **Send Trap** control for any of the faults. If a fault is present on a certain parameter, it is displayed in the **Fault present** column.
+At the top of this page, you can find the standalone fault for **Temperature Overheat**. The page also contains three other fault tables, i.e., the **Frame Faults Table**, **Over BW Faults Table**, and **Trap Faults Table**. All controls are the same in that you can **enable** or **disable** a particular trap with the **Send Trap** control for any of the faults. If a fault is present on a certain parameter, it is displayed in the **Fault present** column.

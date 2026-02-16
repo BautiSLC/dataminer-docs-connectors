@@ -99,7 +99,7 @@ The connector supports two CC file formats:
 - **XML format**: Must contain `Remotes/Remote/Name` elements with the device names.
 - **CSV format**: Must include a `Name` column header with the device names.
 
-Files must have a `_CC` suffix in the filename (e.g. `DMA_EID_CC.xml` or `ElementName_CC.csv`).
+Files must have a `_CC` suffix in the filename (e.g., `DMA_EID_CC.xml` or `ElementName_CC.csv`).
 
 ### Mapping JSON File
 
@@ -119,7 +119,7 @@ The mapping file is a JSON configuration that transforms source inventory data i
 
 | Property | Type | Description |
 |----------|------|-------------|
-| `emitArray` | string | **Required**. The name of the root array in the output JSON (e.g. `"circuits"`). |
+| `emitArray` | string | **Required**. The name of the root array in the output JSON (e.g., `"circuits"`). |
 | `fields` | array | **Required**. Array of field mapping rules for simple properties. |
 | `arrays` | array | **Required**. Array of mapping rules for nested arrays. |
 
@@ -138,7 +138,7 @@ Copies a value from the source data to the output:
 | Property | Type | Description |
 |----------|------|-------------|
 | `to` | string | **Required**. The output property name. Supports dot notation for nested objects. |
-| `from` | string | **Required** (if no `const`). Path to the source value. Must start with `src.` (e.g. `"src.circuitAlias"`) for circuitAlias. |
+| `from` | string | **Required** (if no `const`). Path to the source value. Must start with `src.` (e.g., `"src.circuitAlias"`) for circuitAlias. |
 | `default` | any | Optional. Value to use if the source path returns null or is not found. |
 
 ##### Option 2: Using 'const' (Constant Value)
@@ -213,7 +213,7 @@ The `arrays` section transforms source arrays into output arrays:
 | Property | Type | Description |
 |----------|------|-------------|
 | `to` | string | **Required**. Output array property name. |
-| `from` | string | **Required**. Source array path (e.g. `src.devices`). |
+| `from` | string | **Required**. Source array path (e.g., `src.devices`). |
 | `itemFields` | array | **Required**. Field rules applied to each array item. |
 
 ##### Item Field Path Prefixes
@@ -313,4 +313,4 @@ The connector validates the mapping file. These rules must be applied:
 
 - The connector requires DataMiner version **10.3.0.0 - 12752** or higher.
 - When remote file paths are used, ensure the configured credentials have appropriate read/write permissions on the network shares.
-- Output files are named by replacing the `_CC` suffix with `_CP` (e.g. `Name_CC.xml` generates `Name_CP.json`).
+- Output files are named by replacing the `_CC` suffix with `_CP` (e.g., `Name_CC.xml` generates `Name_CP.json`).

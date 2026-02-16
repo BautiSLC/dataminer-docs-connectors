@@ -99,7 +99,7 @@ Currently the polling frequencies are hard-coded in the connector. Below you can
 - The **Disk** page offers information about the local storage in the monitored server. Further information, such as rates, and read, write and transfer times, is available on the **Disk Details** page.
 
   > [!NOTE]
-  > A sign that could indicate that the disk is busy is the **Latency**, i.e. how long it takes before it can process something. This metric can be tracked with the parameter **Avg. Transfer Rate**.
+  > A sign that could indicate that the disk is busy is the **Latency**, i.e., how long it takes before it can process something. This metric can be tracked with the parameter **Avg. Transfer Rate**.
 
 - The **Network** page contains information about the network adapters available in the monitored server. Additional metrics, such as rates, are available on the **Details** subpage.
 

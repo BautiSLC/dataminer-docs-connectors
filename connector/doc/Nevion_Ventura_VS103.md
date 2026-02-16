@@ -62,7 +62,7 @@ The Nevion Ventura VS103 is an SNMP connector. The IP needs to be configured dur
 
 SNMP CONNECTION:
 
-- **IP address/host**: The polling IP of the device, e.g. *10.11.12.13*.
+- **IP address/host**: The polling IP of the device, e.g., *10.11.12.13*.
 - **Device address**: This is not required. If the value is 1, all the pages are shown. If the value is not filled in or other than 1, some pages are hidden (Interfaces, In-Band Management, Input Status and Output Status). The default value is *1*.
 
 SNMP Settings:

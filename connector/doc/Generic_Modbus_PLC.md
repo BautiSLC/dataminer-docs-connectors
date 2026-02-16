@@ -48,7 +48,7 @@ SERIAL CONNECTION:
 
 ### Configuration File
 
-This connector requires a configuration file. When you use the connector for the first time, ensure that this configuration file is located within the DataMiner Documents folder (e.g. `C:\Skyline DataMiner\Documents\Generic Modbus PLC`). Below, you can find detailed instructions on the file format and required data.
+This connector requires a configuration file. When you use the connector for the first time, ensure that this configuration file is located within the DataMiner Documents folder (e.g., `C:\Skyline DataMiner\Documents\Generic Modbus PLC`). Below, you can find detailed instructions on the file format and required data.
 
 The configuration file must include Excel sheets designated for the following registers:
 

@@ -50,7 +50,7 @@ The connector contains 5 pages.
 
 This page displays information regarding the **Device Number**, **Serial Number** and **Firmware**, as well as the current **Voltage** and **Temperature** of the unit.
 
-In addition, it allows you to change the **Device Name**, permit or prohibit the **Firmware Upgrade**, and configure the **Password**, **System Clock**, **Logout** **Time** due to inactivity, and **Frequency of Web Alarm** (i.e. the frequency with which the web alarm status is refreshed).
+In addition, it allows you to change the **Device Name**, permit or prohibit the **Firmware Upgrade**, and configure the **Password**, **System Clock**, **Logout** **Time** due to inactivity, and **Frequency of Web Alarm** (i.e., the frequency with which the web alarm status is refreshed).
 
 The page contains one page button, **Network**, which opens a subpage where you can change **Network and SNMP settings**.
 

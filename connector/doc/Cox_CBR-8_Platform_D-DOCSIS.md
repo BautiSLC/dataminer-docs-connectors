@@ -4,7 +4,7 @@ uid: Connector_help_Cox_CBR-8_Platform_D-DOCSIS
 
 # Cox CBR-8 Platform D-DOCSIS
 
-The CBR-8 is designed to support distributed-access architectures, remote PHY, DOCSIS 3.0 and 3.1, all video types, and software-defined networking. This connector allows you to collect all the data for the Cisco CBR-8 from KAFKA using the **Generic KAFKA Consumer** along with complementary data from auxiliary connectors, e.g. Smart PHY, Vecima RPM, HP Network Automation, etc. This data is then centralized within the connector and used by DataMiner EPM for aggregation actions.
+The CBR-8 is designed to support distributed-access architectures, remote PHY, DOCSIS 3.0 and 3.1, all video types, and software-defined networking. This connector allows you to collect all the data for the Cisco CBR-8 from KAFKA using the **Generic KAFKA Consumer** along with complementary data from auxiliary connectors, e.g., Smart PHY, Vecima RPM, HP Network Automation, etc. This data is then centralized within the connector and used by DataMiner EPM for aggregation actions.
 
 ## About
 

@@ -48,11 +48,11 @@ With this example, DCF interface name "Eth1/3/1 (in)" will be translated to "Int
 
 ## How to use
 
-When you launch the application, it will list all services (i.e. all crosspoints) that are populated by the configured SDN controllers in the app. Multiple SDN instances can be linked to this same application.
+When you launch the application, it will list all services (i.e., all crosspoints) that are populated by the configured SDN controllers in the app. Multiple SDN instances can be linked to this same application.
 
 Metadata is present to show the service state, start and end timing, multicast IPs, tags and more.
 
-You can **quick-filter** **on** **tags** (e.g. Audio, Video, Data, etc.). The standard table filtering is also available to filter on any other metric listed.
+You can **quick-filter** **on** **tags** (e.g., Audio, Video, Data, etc.). The standard table filtering is also available to filter on any other metric listed.
 
 When a service has been selected, you can start the analysis by clicking the **Show Edges** button at the bottom of the application. This will open a pop-up window.
 

@@ -61,7 +61,7 @@ The element using this connector consists of the data pages detailed below.
 
 ### General
 
-This page displays basic information about the device, e.g. **Device Name**, **Software Version**.
+This page displays basic information about the device, e.g., **Device Name**, **Software Version**.
 
 The page also contains page buttons to the following subpages:
 
@@ -71,11 +71,11 @@ The page also contains page buttons to the following subpages:
 
 ### IP Interfaces
 
-This page displays information about the IP Interfaces, e.g. **State**, **IPv4 Address**.
+This page displays information about the IP Interfaces, e.g., **State**, **IPv4 Address**.
 
 ### Ethernet
 
-This page displays information about the Ethernet, e.g. State, Rx Bitrate and Load
+This page displays information about the Ethernet, e.g., State, Rx Bitrate and Load
 
 The page also contains page buttons to the following subpages:
 
@@ -85,15 +85,15 @@ The page also contains page buttons to the following subpages:
 
 ### ASI Input
 
-This page displays information about the ASI Inputs on each of the ethernet ports, e.g. **Packet Length,** **Destination Formats**.
+This page displays information about the ASI Inputs on each of the ethernet ports, e.g., **Packet Length,** **Destination Formats**.
 
 ### ASI Output
 
-This page displays information about the ASI Outputs on each of the ethernet ports, e.g. **Ts Mode,** **Stream Mode**.
+This page displays information about the ASI Outputs on each of the ethernet ports, e.g., **Ts Mode,** **Stream Mode**.
 
 ### IP Input
 
-This page displays information about the IP inputs, e.g. **Flow A & B Source Interface**, **Expected Lagging Flow**.
+This page displays information about the IP inputs, e.g., **Flow A & B Source Interface**, **Expected Lagging Flow**.
 
 The page also contains page buttons to the following subpages:
 
@@ -104,16 +104,16 @@ The page also contains page buttons to the following subpages:
 
 ### TS Input Switch
 
-This page displays information about the TS Input Switches, e.g. **Switch and Return Delay**, **Selected Input GID**.
+This page displays information about the TS Input Switches, e.g., **Switch and Return Delay**, **Selected Input GID**.
 
 ### Transport Streams
 
-This page displays information about the Transport Streams, e.g. **Source Interface**, **Multicast Address**.
+This page displays information about the Transport Streams, e.g., **Source Interface**, **Multicast Address**.
 
 ### Services
 
-This page displays information about the services, e.g. **Service Provider**, **Service Type**.
+This page displays information about the services, e.g., **Service Provider**, **Service Type**.
 
 ### Alarms
 
-This page displays information about the alarms, e.g. **Desriptions**, **Severity**.
+This page displays information about the alarms, e.g., **Desriptions**, **Severity**.

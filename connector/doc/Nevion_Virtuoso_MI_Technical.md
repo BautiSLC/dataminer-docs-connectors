@@ -39,7 +39,7 @@ The element using this connector consists of the data pages detailed below.
 
 ### General
 
-This page displays basic information about the device, e.g. **Device Name**, **Software Version**.
+This page displays basic information about the device, e.g., **Device Name**, **Software Version**.
 
 The page also contains page buttons to several subpages:
 
@@ -49,13 +49,13 @@ The page also contains page buttons to several subpages:
 
 ### IP Interfaces
 
-This page displays the types of IP interfaces and their labels, e.g. **Description**, **Label**.
+This page displays the types of IP interfaces and their labels, e.g., **Description**, **Label**.
 
 In the **State** column, you can enable or disable the IP interface.
 
 ### Ethernet
 
-This page displays Ethernet information related to the device, e.g. **MAC Address**, **RX Bitrate**, **TX Bitrate**.
+This page displays Ethernet information related to the device, e.g., **MAC Address**, **RX Bitrate**, **TX Bitrate**.
 
 In the **State** column, you can enable or disable Ethernet.
 
@@ -67,19 +67,19 @@ The page also contains page buttons to the following subpages:
 
 ### ASI Input
 
-This page displays tables with information about the ASI input, e.g. **Routing**, **Stream**.
+This page displays tables with information about the ASI input, e.g., **Routing**, **Stream**.
 
 You can configure the values in the Label and Enabled columns in the ASI Input table.
 
 ### ASI Output
 
-This page displays information about the ASI output, e.g. **Description**, **Stream Mode**.
+This page displays information about the ASI output, e.g., **Description**, **Stream Mode**.
 
 You can configure the TS Mode and Advanced Monitoring columns with a dropdown box and toggle button, respectively.
 
 ### IP Input
 
-This page displays general information about the SIPS configuration and status, e.g. **Speed/Duplex Mode**, **Top Severity**.
+This page displays general information about the SIPS configuration and status, e.g., **Speed/Duplex Mode**, **Top Severity**.
 
 The values in all the columns except the instance column of the table SIPS configuration can be changed. With the dropdown box in the Expected Lagging Flow and Preferred Flow columns, you can select the values *Auto*, *A*, and *B*.
 
@@ -88,20 +88,20 @@ The page also contains page buttons to the following subpages:
 - **Flow A**: Displays status information of the Flow A. The last columns to the right can be changed as desired.
 - **Flow B**: Displays status information of the Flow B. The last columns to the right can be changed as desired.
 - **FEC**: Displays information regarding the FEC of the device.
-- **Buffer Regulator:** Displays information about the buffer regulator, e.g. **Utilization,** **Size.**
+- **Buffer Regulator:** Displays information about the buffer regulator, e.g., **Utilization,** **Size.**
 
 ### TS input Switch
 
-This page displays tables with information regarding the transport input switch, e.g. **TS Input Switch**, **Ts Switch Inputs**.
+This page displays tables with information regarding the transport input switch, e.g., **TS Input Switch**, **Ts Switch Inputs**.
 
 ### Transport Streams
 
-This page displays information for each IP input. You can also configure information like the state, source filter, and log IP statistics. The information is organized in tables, e.g. **TS IP Inputs**, **TS IP Outputs**.
+This page displays information for each IP input. You can also configure information like the state, source filter, and log IP statistics. The information is organized in tables, e.g., **TS IP Inputs**, **TS IP Outputs**.
 
 ### Services
 
-This page displays information about the services present in the device., e.g. **Service Name**, **Total Rate**.
+This page displays information about the services present in the device., e.g., **Service Name**, **Total Rate**.
 
 ### Alarms
 
-This page displays information about the alarms in the device, e.g. **Severity,** **Description**.
+This page displays information about the alarms in the device, e.g., **Severity,** **Description**.

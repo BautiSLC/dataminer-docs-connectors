@@ -17,7 +17,7 @@ The **FiberAir IP-20G** connector displays the general information, available in
 | Range   | Description      | Based on | System Impact |
 |---------|------------------|----------|---------------------|
 | 1.0.0.x | Initial version  | -        | -             |
-| 1.0.1.x | - Displayed column layout for the Interfaces table changed because of added new rate parameters.<br>- Display key Interfaces table changed because previous format was not unique. Format now consists of "\[Description\].\[Index\] - \[Alias\]".<br>- Added bit rate in Ethernet Statistics table.<br>- Added rate parameters for Discarded, Broadcast, Unicast (in/out) packets.<br>- Added rate parameters for all counters available in Interface Physical Port RMON Statistics table. | 1.0.0.4  | - Verify applications, e.g. Reporter, that take the order of columns into account.<br> - Verify any configured alarm filter in the DMS to match the new format. |
+| 1.0.1.x | - Displayed column layout for the Interfaces table changed because of added new rate parameters.<br>- Display key Interfaces table changed because previous format was not unique. Format now consists of "\[Description\].\[Index\] - \[Alias\]".<br>- Added bit rate in Ethernet Statistics table.<br>- Added rate parameters for Discarded, Broadcast, Unicast (in/out) packets.<br>- Added rate parameters for all counters available in Interface Physical Port RMON Statistics table. | 1.0.0.4  | - Verify applications, e.g., Reporter, that take the order of columns into account.<br> - Verify any configured alarm filter in the DMS to match the new format. |
 
 ### Product Info
 

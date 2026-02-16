@@ -20,16 +20,16 @@ This connector uses an HTTP connection and requires the following input during e
 
 **SERIAL CONNECTION**:
 
-- **IP address/host**: The polling IP or URL of the destination, e.g. *10.11.12.13.*
-- **IP port**: The port of the destination, e.g. *80.*
+- **IP address/host**: The polling IP or URL of the destination, e.g., *10.11.12.13.*
+- **IP port**: The port of the destination, e.g., *80.*
 - **Bus address**: This field can be used to bypass the proxy. To do so, fill in the value *bypassproxy*.
 
 ### Configuration
 
 The NSG9000 devices have a default authentication setup that requires login details for a session. These details should be entered on the **Authentication Settings** page, which you can access via the page button on the **General** page. These default login details can be different depending on the device type, and consequently they are different for the NSG9000 3G version.
 
-- **Username:** The username or login of the corresponding access level, e.g. *guest.*
-- **Password:** The password of the user or access level, e.g. *nsgguest.*
+- **Username:** The username or login of the corresponding access level, e.g., *guest.*
+- **Password:** The password of the user or access level, e.g., *nsgguest.*
 
 ## Usage
 

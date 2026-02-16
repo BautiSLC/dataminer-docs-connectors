@@ -12,7 +12,7 @@ The **General** page provides a high-level overview with total item counts per d
 
 ## Key Features
 
-- **Automated data synchronization**: Keep all Verizon provisioning datasets (e.g. circuits, locations, devices, customers) continuously in sync, ensuring decisions are based on the latest information.
+- **Automated data synchronization**: Keep all Verizon provisioning datasets (e.g., circuits, locations, devices, customers) continuously in sync, ensuring decisions are based on the latest information.
 
 - **Granular polling control**: Configure per-dataset polling intervals, enable/disable datasets, and trigger on-demand polling to refresh exactly what you need, when you need it.
 

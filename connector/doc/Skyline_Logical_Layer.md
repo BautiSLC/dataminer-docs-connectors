@@ -68,11 +68,11 @@ To **add** a parameter monitor:
 
 1. Click **Add**.
 
-   The monitor will be added and its value and (if applicable, i.e. for discrete parameters) display value will be displayed.
+   The monitor will be added and its value and (if applicable, i.e., for discrete parameters) display value will be displayed.
 
 > [!NOTE]
 >
-> - You cannot add a parameter monitor that is already present (i.e. an element/parameter/index combination that already exists as a parameter monitor).
+> - You cannot add a parameter monitor that is already present (i.e., an element/parameter/index combination that already exists as a parameter monitor).
 > - Each monitor name (across all monitor tables) needs to be unique. If the monitor name already exists in any of the three tables, it will not be added.
 
 In the **Documentation** column, you can describe the particular usage of this monitor.
@@ -121,7 +121,7 @@ To **add** an element alarm monitor:
 
    - If you want to create an element alarm monitor for a single parameter alarm state, select one of the parameters.
 
-     The list will only contain monitored parameters (i.e. parameters that are monitored based on an alarm template).
+     The list will only contain monitored parameters (i.e., parameters that are monitored based on an alarm template).
 
 1. If you have selected a table column parameter, in the **Index** dropdown list, select the required index.
 
@@ -131,7 +131,7 @@ To **add** an element alarm monitor:
 
 > [!NOTE]
 >
-> - It is not possible to add an element alarm monitor that is already present (i.e. an element alarm level or parameter/index combination that already exists as an element alarm monitor).
+> - It is not possible to add an element alarm monitor that is already present (i.e., an element alarm level or parameter/index combination that already exists as an element alarm monitor).
 > - Each monitor name (across all monitor tables) needs to be unique. If a monitor name already exists in any of the three tables, it will not be added.
 
 In the **Documentation** column, you can describe the particular usage of this monitor.
@@ -182,7 +182,7 @@ To **add** a view alarm monitor:
 
 > [!NOTE]
 >
-> - It is not possible to add a view alarm monitor that is already present (i.e. a view that already exists as a view alarm monitor).
+> - It is not possible to add a view alarm monitor that is already present (i.e., a view that already exists as a view alarm monitor).
 > - Each monitor name (across all monitor tables) needs to be unique. If a monitor name already exists in any of the three tables, it will not be added.
 
 In the **Documentation** column, you can describe the particular usage of this monitor.
@@ -358,7 +358,7 @@ By importing parameter monitors, you can easily create a large number of new par
 
 1. Right-click an entry in the **Parameter Value Monitors** table and select **Other** > **Export table**.
 
-1. Select an export location by browsing to a folder and defining a file name (e.g. *TheMonitors.csv*).
+1. Select an export location by browsing to a folder and defining a file name (e.g., *TheMonitors.csv*).
 
 1. Click **Save**.
 
@@ -385,14 +385,14 @@ By importing parameter monitors, you can easily create a large number of new par
 
 1. On the **Monitors** page, click **Import Parameters**.
 
-1. In the **Parameter CSV File Path** box, enter the full path of the file, e.g. `C:\Skyline DataMiner\Documents\Skyline Logical Layer\TheMonitors.csv`.
+1. In the **Parameter CSV File Path** box, enter the full path of the file, e.g., `C:\Skyline DataMiner\Documents\Skyline Logical Layer\TheMonitors.csv`.
 
 1. Click the **Import Parameters** button.
 
    This should add all the defined monitors.
 
 > [!NOTE]
-> When parameter monitors are imported, checks will be performed to verify for each parameter monitor if the element, parameter, and (if applicable) index exist. If any of the to be imported parameter monitors is invalid, a pop-up message will be shown indicating the reason why it is invalid, and none of the to be imported parameter monitors will be imported or added. On top of that, checks are done to prevent that existing monitors could get corrupted (i.e. changed or duplicated). In any case, when importing monitors it is good practice to always check the element logging and verify if no errors are reported. Also check in the Parameter Value Monitors table if all expected monitors have been added, and if they have obtained a valid value. This is the only way to be sure an import has been fully successful.
+> When parameter monitors are imported, checks will be performed to verify for each parameter monitor if the element, parameter, and (if applicable) index exist. If any of the to be imported parameter monitors is invalid, a pop-up message will be shown indicating the reason why it is invalid, and none of the to be imported parameter monitors will be imported or added. On top of that, checks are done to prevent that existing monitors could get corrupted (i.e., changed or duplicated). In any case, when importing monitors it is good practice to always check the element logging and verify if no errors are reported. Also check in the Parameter Value Monitors table if all expected monitors have been added, and if they have obtained a valid value. This is the only way to be sure an import has been fully successful.
 
 ### Importing Condition Monitors
 

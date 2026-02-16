@@ -63,7 +63,7 @@ The connector uses the following workflow:
 
 ## Retention/Cleanup
 
-- The Days Threshold parameter defines the maximum allowed age of each entry (i.e. the difference between the current date and the last login date).
+- The Days Threshold parameter defines the maximum allowed age of each entry (i.e., the difference between the current date and the last login date).
 - A daily timer invokes the cleanup (QAction 3), deleting rows older than the threshold.
 - Rows with unparsable timestamps are considered invalid and removed.
 

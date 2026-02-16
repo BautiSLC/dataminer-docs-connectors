@@ -115,7 +115,7 @@ Because of the way SSH connections are created, we recommend limiting the SSH us
 
 ### General page
 
-On the General page, an overview of general device settings is displayed, e.g. **Model**, **Software Description**, etc.
+On the General page, an overview of general device settings is displayed, e.g., **Model**, **Software Description**, etc.
 
 Multiple page buttons are also available that provide access to more specific information:
 
@@ -141,7 +141,7 @@ The Detailed Interface Info page displays the interface info.
 
 The column **IF Counter Type** displays if the bitrates are calculated with 32-bit or 64-bit counters. The bitrates are refreshed every 30s with the 32-bit counters. This is also the maximum allowed timespan to avoid a counter wraparound. With 64-bit, the bitrates are refreshed every minute to avoid drops to 0 Mbps for devices with a very high load.
 
-**XMPL RPC** is an option to retrieve data that is not available on the CISCO device itself, e.g. **IF Speed** from a server. It will be retrieved via calls to a customized platform.
+**XMPL RPC** is an option to retrieve data that is not available on the CISCO device itself, e.g., **IF Speed** from a server. It will be retrieved via calls to a customized platform.
 
 Via **Measurement Configuration**, you can enable or disable the display and calculation of the interface communication KPIs. Range 2.1.x.x uses subtables, which limits the polling (disabled rows are not polled). Range 3.1.x.x uses "multiplegetbulk", because when some cells were empty, the complete interface table was empty when polled with range 2.1.x.x. Multiplegetbulk does not support subtables, so disabled rows will still be polled.
 
@@ -167,7 +167,7 @@ On the **Trunk Info** page you can have the trunk ports table polled automatical
 
 - *All:* All VLANs are included.
 - *None:* No VLANs are included.
-- A range, e.g. *2,5,100-200*: VLAN 2 and VLAN 5 and VLANs 100 to 200 (including 200) are included.
+- A range, e.g., *2,5,100-200*: VLAN 2 and VLAN 5 and VLANs 100 to 200 (including 200) are included.
 
 There are several possibilities to change these columns (the explanation below focuses on **Trunk Allowed**; however, **Trunk Pruning** is similar):
 
@@ -268,16 +268,16 @@ The configuration is stored in two locations, RAM and NVRAM. The running configu
     - Copy Config Protocol: TFTP
     - Copy Config Source File Type: Network File
     - Copy Config Destination File Type: Startup Config
-    - Copy Config Server Address: The IP address of the server from which to copy the configuration file (e.g. 192.168.1.1)
-    - Copy Config File Name: The file name (including the file path, if applicable) (e.g. cisco-cfg)
+    - Copy Config Server Address: The IP address of the server from which to copy the configuration file (e.g., 192.168.1.1)
+    - Copy Config File Name: The file name (including the file path, if applicable) (e.g., cisco-cfg)
 
   - Network\>NVRAM
 
     - Copy Config Protocol: TFTP
     - Copy Config Source File Type: Network File
     - Copy Config Destination File Type: Running Config
-    - Copy Config Server Address: The IP address of the server from which to copy the configuration file (e.g. 192.168.1.1)
-    - Copy Config File Name: The file name (including the file path, if applicable) (e.g. cisco-cfg)
+    - Copy Config Server Address: The IP address of the server from which to copy the configuration file (e.g., 192.168.1.1)
+    - Copy Config File Name: The file name (including the file path, if applicable) (e.g., cisco-cfg)
 
   - RAM\>NVRAM
 
@@ -304,16 +304,16 @@ The configuration is stored in two locations, RAM and NVRAM. The running configu
     - Copy Config Protocol: TFTP
     - Copy Config Source File Type: Startup Config
     - Copy Config Destination File Type: Network File
-    - Copy Config Server Address: The IP address of the server to which to copy the configuration file (e.g. 192.168.1.1)
-    - Copy Config File Name: The file name (including the file path, if applicable) (e.g. cisco-cfg)
+    - Copy Config Server Address: The IP address of the server to which to copy the configuration file (e.g., 192.168.1.1)
+    - Copy Config File Name: The file name (including the file path, if applicable) (e.g., cisco-cfg)
 
   - NVRAM\>Network
 
     - Copy Config Protocol: TFTP
     - Copy Config Source File Type: Running Config
     - Copy Config Destination File Type: Network File
-    - Copy Config Server Address: The IP address of the server to which to copy the configuration file (e.g. 192.168.1.1)
-    - Copy Config File Name: The file name (including the file path, if applicable) (e.g. cisco-cfg)
+    - Copy Config Server Address: The IP address of the server to which to copy the configuration file (e.g., 192.168.1.1)
+    - Copy Config File Name: The file name (including the file path, if applicable) (e.g., cisco-cfg)
 
 - Load IOS
 
@@ -322,8 +322,8 @@ The configuration is stored in two locations, RAM and NVRAM. The running configu
     - Copy Config Protocol: TFTP
     - Copy Config Source File Type: Network File
     - Copy Config Destination File Type: IOS File
-    - Copy Config Server Address: The IP address of the server from which to copy the IOS file (e.g. 192.168.1.1)
-    - Copy Config File Name: The file name (including the file path, if applicable) (e.g. cisco-ios)
+    - Copy Config Server Address: The IP address of the server from which to copy the IOS file (e.g., 192.168.1.1)
+    - Copy Config File Name: The file name (including the file path, if applicable) (e.g., cisco-ios)
 
 - Backup IOS
 
@@ -332,7 +332,7 @@ The configuration is stored in two locations, RAM and NVRAM. The running configu
     - Copy Config Protocol: TFTP
     - Copy Config Source File Type: IOS File
     - Copy Config Destination File Type: Network File
-    - Copy Config Server Address: The IP address of the server to which to copy the IOS file (e.g. 192.168.1.1)
-    - Copy Config File Name: The file name (including the file path, if applicable) (e.g. cisco-ios)
+    - Copy Config Server Address: The IP address of the server to which to copy the IOS file (e.g., 192.168.1.1)
+    - Copy Config File Name: The file name (including the file path, if applicable) (e.g., cisco-ios)
 
 From version 5.1.6.x onwards, an extra connection is used to collect the Syslog information.

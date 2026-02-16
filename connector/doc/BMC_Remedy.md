@@ -32,7 +32,7 @@ This connector uses a serial connection and requires the following input during 
 
 HTTP CONNECTION:
 
-- **IP address/host**: The polling IP or URL of the destination, e.g. *10.11.12.13.*
+- **IP address/host**: The polling IP or URL of the destination, e.g., *10.11.12.13.*
 - **IP port**: The port of the destination, by default *80*.
 - **Bus address**: A field that can be used to bypass the proxy. To do so, fill in the value *bypassproxy*.
 

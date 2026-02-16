@@ -41,7 +41,7 @@ This connector uses a Simple Network Management Protocol (SNMP) connection and r
 
 SNMP Connection:
 
-- **IP Address/host**: The polling IP of the device, e.g. *10.220.224.16*.
+- **IP Address/host**: The polling IP of the device, e.g., *10.220.224.16*.
 
 SNMP Settings:
 
@@ -69,7 +69,7 @@ It also contains five page buttons, **Amplifier**, **Transistor**, **Supply**, *
 
 ### Alarms Page
 
-This page displays the main alarms of the device, e.g. **Major Fault**, **Temperature Fault**, etc.
+This page displays the main alarms of the device, e.g., **Major Fault**, **Temperature Fault**, etc.
 
 ### Amplifiers Page (not available in range 1.1.0.x)
 
@@ -91,7 +91,7 @@ This page contains a table with the status of the cabinets present on the device
 
 ### Commands Page (not available in range 1.1.0.x)
 
-This page displays the commands of the device, e.g. **Transmitter Control**, **Reserve Exciter Control**, etc.
+This page displays the commands of the device, e.g., **Transmitter Control**, **Reserve Exciter Control**, etc.
 
 ### Configuration Page (not available in range 1.1.0.x)
 

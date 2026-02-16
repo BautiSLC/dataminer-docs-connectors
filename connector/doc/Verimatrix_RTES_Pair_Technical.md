@@ -26,22 +26,22 @@ The **Verimatrix RTES Pair** also has an optional connection to an Oracle databa
 
 **SNMP Connection - Server A**:
 
-- **IP address/host**: The polling IP of the main device, e.g. *10.11.12.13.*
+- **IP address/host**: The polling IP of the main device, e.g., *10.11.12.13.*
 - **Port number**: The port of the connected device, by default *161*
 - **Get community string**: The community string in order to read from the device. The default value is *public*.
 - **Set community string**: The community string in order to set to the device. The default value is *private.*
 
 **SNMP Connection - Server B**:
 
-- **IP address/host**: The polling IP of the secondary device, e.g. *10.11.12.13.*
+- **IP address/host**: The polling IP of the secondary device, e.g., *10.11.12.13.*
 - **Port number**: The port of the connected device, by default *161*
 - **Get community string**: The community string in order to read from the device. The default value is *public*.
 - **Set community string**: The community string in order to set to the device. The default value is *private.*
 
 **Oracle Database Connection (configurable under Channel Performance > Database Settings)**:
 
-- **IP Database**: The IP of the Oracle database connection, e.g. *10.11.12.13.*
-- **Port Database**: The port of the Oracle database connection, e.g. *161*
+- **IP Database**: The IP of the Oracle database connection, e.g., *10.11.12.13.*
+- **Port Database**: The port of the Oracle database connection, e.g., *161*
 - **Instance**: The instance of the table with the required information in the Oracle database.
 - **Username**: The Username used to access the Oracle database.
 - **Password**: The Password used to access the Oracle database.
