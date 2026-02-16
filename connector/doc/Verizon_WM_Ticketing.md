@@ -12,9 +12,9 @@ As this is a virtual connector, **no data traffic** will be shown **in the Strea
 
 ### Enterprise Ticketing Management System (ETMS) Integration
 
-1. The correlation engine listens for and captures **information events** from collector elements.
+1. The Correlation engine listens for and captures **information events** from collector elements.
 
-1. The correlation engine triggers an **automation script**, passing along the ticketing message.
+1. The Correlation engine triggers an **automation script**, passing along the ticketing message.
 
 1. The automation script selects the **Verizon WM Ticketing (WMT) element** responsible for handling the ticketing workflow and forwards the message via a parameter set.
 
