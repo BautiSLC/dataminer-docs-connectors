@@ -1,5 +1,5 @@
 ---
-uid: Connector_help_Entsoe_Transparency_Platfrom
+uid: Connector_help_Entsoe_Transparency_Platform
 ---
 
 # Entsoe Transparency Platform
