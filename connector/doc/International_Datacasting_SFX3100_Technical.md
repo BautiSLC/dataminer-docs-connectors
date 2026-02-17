@@ -1,5 +1,5 @@
 ---
-uid: Connector_help_International_Datacasting_SFX3100
+uid: Connector_help_International_Datacasting_SFX3100_Technical
 ---
 
 # International Datacasting SFX3100
