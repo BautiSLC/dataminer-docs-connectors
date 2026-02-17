@@ -8578,6 +8578,11 @@
   items:
   - name: SES Astra CDN Monitor
     topicUid: Connector_help_SES_Astra_CDN_Monitor
+  - name: SES Event Manager
+    topicUid: Connector_help_SES_Event_Manager
+    items:
+    - name: SES Event Manager Technical
+      topicUid: Connector_help_SES_Event_Manager_Technical
   - name: SES Inventory Management
     topicUid: Connector_help_SES_Inventory_Management
     items:
