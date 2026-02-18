@@ -8,35 +8,6 @@ This is a WebSocket-based connector with Cerebrum acting as the server, using ei
 
 The data sent over the WebSocket connection, once initial handshakes are complete, is XML-based.
 
-## About
-
-### Version Info
-
-| Range | Key Features | Based on | System Impact |
-|--|--|--|--|
-| 1.0.0.x [Obsolete] | Initial version. | - | - |
-| 1.0.1.x [Obsolete] | New version because of invalid connector integration. | - | Loss of trending, alarming, saved parameters, etc. Creating a new element is recommended. |
-| 1.0.2.x [Obsolete] | New version because of InterApp update to 1.0.1.x. | - | InterApp communication possibly not backwards compatible. |
-| 1.1.0.x [Main] | Connector is updated to represent a Cerebrum system instead of a Cerebrum server.  | - | Element connections need to be reconfigured. |
-
-### Product Info
-
-| Range     | Supported Firmware     |
-|-----------|------------------------|
-| 1.0.0.x   | API 0.1                |
-| 1.0.1.x   | API 0.1                |
-| 1.0.2.x   | API 0.1                |
-| 1.1.0.x   | API 0.1                |
-
-### System Info
-
-| Range     | DCF Integration     | Cassandra Compliant     | Linked Components     | Exported Components     |
-|-----------|---------------------|-------------------------|-----------------------|-------------------------|
-| 1.0.0.x   | No                  | Yes                     | -                     | -                       |
-| 1.0.1.x   | No                  | Yes                     | -                     | -                       |
-| 1.0.2.x   | No                  | Yes                     | -                     | -                       |
-| 1.1.0.x   | No                  | Yes                     | -                     | -                       |
-
 ## Configuration
 
 ### Connections
@@ -47,7 +18,7 @@ This connector uses a WebSocket connection and requires the following input duri
 
 WEBSOCKET INTERFACE:
 
-- **IP address/host**: ws://*\[The polling IP of the destination]\*
+- **IP address/host**: ws://*[The polling IP of the destination]*
 - **IP port**: The IP port of the destination, default: *40007*.
 
 Note:
@@ -190,23 +161,3 @@ When the **System Controller State** changes to *Enabled*, the Cerebrum server a
 
 If a virtual IP address has been enabled within Cerebrum, this can be used to ensure that the client is always connected to the active server.
 However, as this method does not confirm network connectivity from the client to the currently inactive server, some provisions should be made to ensure that a connection will be available following a switch between the servers.
-
-## Upgrade Procedures
-
-### Upgrade from ranges 1.0.1.x or 1.0.2.x to 1.1.0.x
-
-When upgrading from connector ranges 1.0.1.x or 1.0.2.x to 1.1.0.x, it is important to follow the procedure described below to minimize system impact.
-When the procedure is applied correctly, there should be no significant system impact, and any data loss should be negligible or non-existent.  
-
-If your system uses the **production version** feature and you intend to designate the new connector range as the production version, note that the upgrade procedure described below must be applied to **all elements using the production version**.
-Additionally, the production version must **not** be changed until explicitly indicated in the procedure.
-
-Procedure:
-1. Stop the DataMiner elements that need to be upgraded to connector range 1.1.0.x.<br/>
-  *If the production version feature is used, this includes all elements currently running the production version.*
-2. Reconfigure the DataMiner elements to use the connector range by either:<br/>
-- Selecting version 1.1.0.x in the Edit Wizard, or<br/>
-- Changing the production version
-3. Update the DataMiner elements by reconfiguring the element connections.<br/>
-  *Typically, this only requires configuring the secondary server SNMP connection.*
-4. Restart the DataMiner elements.
