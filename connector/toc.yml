@@ -3933,6 +3933,9 @@
   items:
   - name: EVS Cerebrum
     topicUid: Connector_help_EVS_Cerebrum
+    items:
+    - name: EVS Cerebrum Technical
+      topicUid: Connector_help_EVS_Cerebrum_Technical
   - name: EVS IPD-VIA
     topicUid: Connector_help_EVS_IPD-VIA
   - name: EVS IP Director
