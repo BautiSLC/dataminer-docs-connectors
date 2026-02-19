@@ -18,12 +18,11 @@ This connector uses a WebSocket connection and requires the following input duri
 
 WEBSOCKET INTERFACE:
 
-- **IP address/host**: ws://*[The polling IP of the destination]*
-- **IP port**: The IP port of the destination, default: *40007*.
+- **IP address/host**: `ws://[The polling IP of the destination]`
+- **IP port**: The IP port of the destination, by default *40007*.
 
-Note:
-If the EVS Cerebrum system is configured with a **virtual IP address**, the virtual IP address is higly recommended to be used as the polling IP.
-If no virtual IP address is configured, use the polling IP address of one of the Cerebrum servers, as the connector will automatically switch the WebSocket connection to the currently active server. 
+> [!NOTE]
+> If the EVS Cerebrum system is configured with a **virtual IP address**, we highly recommend using the virtual IP address as the polling IP. If no virtual IP address is configured, use the polling IP address of one of the Cerebrum servers, as the connector will automatically switch the WebSocket connection to the currently active server.
 
 #### Primary Server SNMP Connection
 
@@ -52,7 +51,6 @@ SNMP Settings:
 - **Port number**: The port of the connected device, by default *161*.
 - **Get community string**: The community string used when reading values from the device (default: *public*).
 - **Set community string**: The community string used when setting values on the device (default: *private*).
-
 
 ### Initialization
 
@@ -102,7 +100,7 @@ The following options are available in the right-click menu on this page:
 
 ### Destination Associations
 
-To **create** a destination association, specify the configuration settings on the **Destination** **Configuration** page and click the **Create** button.
+To **create** a destination association, specify the configuration settings on the **Destination Configuration** page and click the **Create** button.
 
 With the **Delete** option in the right-click menu, you can delete the selected destination association.
 
@@ -110,7 +108,7 @@ With the **Delete** option in the right-click menu, you can delete the selected 
 
 For **levels**, **sources**, and **destinations**, it is possible to subscribe only to a subset of each, based on ID. Subscriptions filters are configured on the **Level Subscription Filters**, **Source Subscriptions Filters**, and **Destination Subscription Filters** page, respectively.
 
-If destinations filters are defined, they will be taken into account when setting up routes subscriptions, so that only the relevant routes are subscribed to.
+If destinations filters are defined, they will be taken into account when routes subscriptions are set up, so that only the relevant routes are subscribed to.
 
 The following options are available in the right-click menus on the filter pages:
 
