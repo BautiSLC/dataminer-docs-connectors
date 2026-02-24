@@ -4,12 +4,12 @@ uid: Connector_help_Amazon_AWS_MediaConnect
 
 # Amazon AWS MediaConnect
 
+## About
+
 This connector implements part of the communication with the AWS Elemental MediaConnect REST API, AWS CloudWatch REST API, and AWS SNS REST API. Its goal is to retrieve information related to AWS MediaConnect flows and their related metrics. The connector is capable of receiving unsolicited messages from SNS topics related to MediaConnect Flow Alarms. These will be used to poll the related flow metrics.
 
 > [!NOTE]
-> It is recommended when upgrading this connector to version 1.0.1.21 or higher to install the [Amazon AWS MediaConnect DataMiner Solution](https://catalog.dataminer.services/details/007eb8fa-68be-4307-aa70-94edb2a03d23) to be able to use all the features of the connector.
-
-## About
+> When you upgrade this connector to version 1.0.1.21 or higher, we recommend installing the [Amazon AWS MediaConnect DataMiner Solution](https://catalog.dataminer.services/details/007eb8fa-68be-4307-aa70-94edb2a03d23) to be able to use all the features of the connector.
 
 ### Version Info
 
@@ -97,9 +97,9 @@ The element created with this connector consists of the following data pages:
 
 - **Source Metric**: Contains the **Source Metrics** table, which is linked to the **Sources** table. It contains 26 metrics related to a source. This information is retrieved from CloudWatch.
 
-- **Router Control**: Contains the **Router Inputs**, **Router Outputs**, and **Router Network Interfaces** tables. Inputs and Outputs are linked to Network Interfaces and Outputs can be linked to an Input when the output is configured to use the Router Input.
-  
-  > [!NOTE]
-  > Creating and Updating Router Inputs, Outputs, and Network Interfaces requires installing the [Amazon AWS MediaConnect DataMiner Solution](https://catalog.dataminer.services/details/007eb8fa-68be-4307-aa70-94edb2a03d23) as the connector relies on scripts included in the solution to perform these operations.
+- **Router Control**: Contains the **Router Inputs**, **Router Outputs**, and **Router Network Interfaces** tables. Inputs and outputs are linked to network interfaces, and outputs can be linked to an input when the output is configured to use the router input.
 
-  **InterApp**: Contains the **InterApp Messages** table, which shows messages received using InterApp by the Connector.
+  > [!NOTE]
+  > To create and update router inputs, outputs, and network interfaces, you will need to install the [Amazon AWS MediaConnect DataMiner Solution](https://catalog.dataminer.services/details/007eb8fa-68be-4307-aa70-94edb2a03d23), as this connector relies on scripts included in the solution to perform these operations.
+
+  **InterApp**: Contains the **InterApp Messages** table, which shows messages that the connector received using InterApp communication.
