@@ -52,7 +52,7 @@ The **General** page provides operational visibility on ticket management:
   - **Service Problem ID**: Corresponding service problem ID in the SNOW system.
   - **Service Problem Incident Number**: Human-readable incident number for reference.
   - **Service Problem Incident Link**: Direct URL link to the service problem in the SNOW interface.
-  - **Creation Status**: Tracks the ticket's SNOW creation lifecycle (`None`, `Buffered`, `Created`). Set to *Buffered* when the ticket is received and awaiting SNOW creation, *Created* when confirmed by SNOW, and reset to *None* on failure for retry.
+  - **Creation Status**: Tracks the ticket's SNOW creation lifecycle (`None`, `Buffered`, `Created`). Set to *Buffered* when the ticket is received and awaiting SNOW creation, set to *Created* when confirmed by SNOW, and reset to *None* on failure for retry.
 
 The table supports filtering, sorting, and pagination (25 rows per page), with partial loading for performance optimization.
 
@@ -71,11 +71,11 @@ The **Configuration** page contains all configurable parameters for connector op
 The connector subscribes to the DataMiner SDM Ticketing module's `OnCreated` event at startup (when synchronization is enabled). When a new SES ticket is created anywhere in the DMS:
 
 1. The subscription callback fires in real time.
-2. The ticket is validated against the "SES" `TicketType` — non-SES tickets are ignored.
-3. The ticket is added to the Tickets Table with a **Buffered** creation status.
-4. The ticket ID is appended to the creation buffer, and SNOW service problem creation is triggered immediately.
+1. The ticket is validated against the "SES" `TicketType`. Non-SES tickets are ignored.
+1. The ticket is added to the Tickets Table with a **Buffered** creation status.
+1. The ticket ID is appended to the creation buffer, and SNOW service problem creation is triggered immediately.
 
-The subscription is automatically enabled or disabled based on the **Ticket Synchronization State** toggle. A periodic refresh (every hour, with a 10-minute minimum interval) ensures the internal `SLProtocol` reference and `TicketingApiHelper` connection remain valid. All table access during subscription callbacks is synchronized via a shared lock to prevent race conditions with the polling-based synchronization path.
+The subscription is automatically enabled or disabled based on the **Ticket Synchronization State** toggle button. A periodic refresh (every hour, with a 10-minute minimum interval) ensures the internal `SLProtocol` reference and `TicketingApiHelper` connection remain valid. All table access during subscription callbacks is synchronized via a shared lock to prevent race conditions with the polling-based synchronization path.
 
 ### Synchronization Workflow
 
