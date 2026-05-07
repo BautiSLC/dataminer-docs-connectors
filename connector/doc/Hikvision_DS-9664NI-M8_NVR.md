@@ -6,7 +6,7 @@ uid: Connector_help_Hikvision_DS-9664NI-M8_NVR
 
 ## About
 
-The Hikvision DS-9664NI-M8 NVR connector provides standardized access to the recorder’s live and recorded video and device telemetry. The connector exposes health/status metrics and diagnostics for integration with video management and analytics platforms.
+The Hikvision DS-9664NI-M8 NVR connector provides standardized access to the recorder's live and recorded video and device telemetry. The connector exposes health and status metrics and diagnostics for integration with video management and analytics platforms.
 
 ## Key Features
 
@@ -17,4 +17,4 @@ The Hikvision DS-9664NI-M8 NVR connector provides standardized access to the rec
 
 ### Prerequisites
 
-- **User Credentials** are required for authencation of the HTTP calls.
+- **User credentials** are required for authentication of the HTTP calls.
