@@ -17,8 +17,9 @@ The Ateme Titan Edge device is an advanced media platform that can have multiple
 | 1.0.2.x [Deprecated] | Encoder and Gateway IP Output table PK changed. Layout adapted. | 1.0.1.10 | - |
 | 1.1.0.x [Deprecated] | API structure changed to match new software version device. | 1.0.2.3  | -             |
 | 1.1.1.x [Deprecated] | Added Decoder Video page with video parameters and added descrambling status for inputs. | 1.1.0.4  | - |
-| 1.1.2.x | Added additional Gateway Channel and Network parameters. | 1.1.1.7  | - |
+| 1.1.2.x [Deprecated] | Added additional Gateway Channel and Network parameters. | 1.1.1.7  | - |
 | 1.1.3.x | Fixes, naming improvements, display key additions to decoder tables, and new decoder/encoder and Gateway parameters introduced. | 1.1.2.10 | - |
+| 1.1.4.x | Decoder SRT interface selection is no longer limited to hardcoded options | 1.1.2.25 | Recreate existing elements |
 | 1.2.0.x [SLC Main] | Fixed issues related to Decoder IP Input response structure change due to new firmware. | 1.1.2.10 | - |
 
 ### Product Info
@@ -32,6 +33,7 @@ The Ateme Titan Edge device is an advanced media platform that can have multiple
 | 1.1.1.x | API unknown - Software v3.0.2  |
 | 1.1.2.x | API unknown - Software v3.0.2  |
 | 1.1.3.x | API unknown - Software v3.0.2  |
+| 1.1.4.x | API unknown - Software v3.0.2  |
 | 1.2.0.x | Software v3.5.0 and above |
 
 ### System Info
@@ -45,6 +47,7 @@ The Ateme Titan Edge device is an advanced media platform that can have multiple
 | 1.1.1.x | No | Yes | - | - Ateme Titan Edge - Encoder<br>- Ateme Titan Edge - Decoder<br>- Ateme Titan Edge - Gateway |
 | 1.1.2.x | No | Yes | - | - Ateme Titan Edge - Encoder<br>- Ateme Titan Edge - Decoder<br>- Ateme Titan Edge - Gateway |
 | 1.1.3.x | No | Yes | - | - Ateme Titan Edge - Encoder<br>- Ateme Titan Edge - Decoder<br>- Ateme Titan Edge - Gateway |
+| 1.1.4.x | No | Yes | - | - Ateme Titan Edge - Encoder<br>- Ateme Titan Edge - Decoder<br>- Ateme Titan Edge - Gateway |
 | 1.2.0.x | No | Yes | - | - Ateme Titan Edge - Encoder<br>- Ateme Titan Edge - Decoder<br>- Ateme Titan Edge - Gateway |
 
 ## Configuration
