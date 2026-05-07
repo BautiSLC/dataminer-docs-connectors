@@ -116,7 +116,7 @@ This page displays parameters to configure and retrieve statistics for the **Pin
 
 ### Element Settings Page
 
-On this page, you can configure the HTTP and SSH credentials used for HTTP polling and SSH connections as well as run SSH Commands to backup, restore, and upgrade the device.
+On this page, you can configure the HTTP and SSH credentials used for HTTP polling and SSH connections, as well as run SSH commands to back up, restore, or upgrade the device.
 
 ### Backup / Restore
 
