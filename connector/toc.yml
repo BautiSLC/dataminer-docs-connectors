@@ -870,6 +870,10 @@
     topicUid: Connector_help_Astro_U125_Edge_FM
   - name: Astro U148
     topicUid: Connector_help_Astro_U148
+    items:
+    - name: Astro U148 Technical
+      topicUid: Connector_help_Astro_U148_Technical
+
   - name: Astro U154 Edge QAM
     topicUid: Connector_help_Astro_U154_Edge_QAM
   - name: Astro U158 Edge QAM
