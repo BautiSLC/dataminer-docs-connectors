@@ -14,22 +14,21 @@ This connector uses **HTTP** to monitor the device. It also uses an **SNMP** int
 
 | Range | Key Features | Based on | System Impact |
 |--|--|--|--|
-| 1.0.0.x [Obsolete] | Initial version | - | - |
-| 1.0.1.x [SLC Main] | - **Removed** the **Connection Method Login** option since it was causing issues when trying to set parameter values such as the Transponder Frequency. <br>- **Added** the **Web Interface Entrance** parameter, the **Login Message** parameter (both located on the Login page), and logic to check each login response. | 1.0.0.24 | Connection Method (read parameter with ID 85 and write parameter with ID 86) has been removed. Impact: Alarm/trend templates and Visio drawings will need to be reviewed. All templates or Visio drawings that reference these removed parameters will need to be adapted. |
+| 1.0.0.x [SLC Main] | Initial version | - | - |
+| 1.0.1.x [Obsolete] | Removed the **Connection Method** togglebutton (Login/Anonymous) from the General page. Added the **Web Interface Entrance** parameter, the **Login Message** parameter (both located on the Login page), and logic to check each login response. | 1.0.0.24 | Connection Method (read parameter with ID 85 and write parameter with ID 86) has been removed. Impact: Alarm/trend/information templates and Visio drawings that reference these parameters will need to be adapted. |
 
 ### Product Info
 
 | Range     | Supported Firmware                                |
 |-----------|---------------------------------------------------|
-| 1.0.0.x   | 5595<br>5799<br>5974<br>5987<br>6010<br>6420<br>6800<br>6810<br>6900<br>6910 |
+| 1.0.0.x   | 5595<br>5799<br>5974<br>5987<br>6010<br>6420<br>6800<br>6810<br>6900<br>6910<br>7866<br>8257<br>8441 |
 | 1.0.1.x   | 5595<br>5799<br>5974<br>5987<br>6010<br>6420<br>6800<br>6810<br>6900<br>6910<br>7866<br>8257<br>8441 |
 
 ### System Info
 
 | Range     | DCF Integration     | Cassandra Compliant     | Linked Components     | Exported Components     |
 |-----------|---------------------|-------------------------|-----------------------|-------------------------|
-| 1.0.0.x   | No                  | Yes                     | -                     | -                       |
-| 1.0.0.8   | Yes                 | Yes                     | -                     | -                       |
+| 1.0.0.x   | Yes (from 1.0.0.8)  | Yes                     | -                     | -                       |
 | 1.0.1.x   | Yes                 | Yes                     | -                     | -                       |
 
 ## Configuration
@@ -76,11 +75,7 @@ From version **1.0.0.20** onwards, you can enable/disable the **Controller Alarm
 
 ### General
 
-This page displays general information about the device.
-
-The credentials of the device must be filled in via the **Login** page button. The Login page also contains two parameters to indicate the accessibility of the web interface. Since only one user can be logged in at a time, check the **Web Interface Entrance** parameter in case a parameter set does not succeed. If the entrance is closed, the Login Message will show the IP address of the user who is currently blocking the entrance. All failed login attempts are also logged in the element log.
-
-Some important parameters are available at the end of the first column:
+This page displays general information about the device. Some important parameters are available at the end of the first column:
 
 - **Controller Name**: This parameter shows the name of the **Astro Virtual Controller** element that manages this device. If no such element is used, the parameter will show the exception value *N/A*.
 
@@ -89,7 +84,7 @@ Some important parameters are available at the end of the first column:
   - *Direct Communication*: The element sends the requests directly to the Astro module.
   - *U100C Proxy*: The element sends the requests to the Astro U100 Controller, which will forward them to the Astro module. The controller acts as a proxy.
 
-- **Connection Method**: This parameter is only available in Direct Communication mode, up to version 1.0.0.24. From version 1.0.1.1 onward, it is no longer available.
+- **Connection Method**: This parameter is only available in Direct Communication mode.
 
   - *Login*: The element logs in to the device before every request (read and write requests).
   - *Anonymous*: The element only logs in to the device for write requests. The device does not log in for read requests.
