@@ -8540,6 +8540,8 @@
     topicUid: Connector_help_Schneider_Electric_StruxureWare
   - name: Schneider Electric StruxureWare - Device
     topicUid: Connector_help_Schneider_Electric_StruxureWare_-_Device
+  - name: Schneider Electric Trio TVIEW+
+    topicUid: Connector_help_Schneider_Electric_Trio_TVIEW+
 - name: Scientific Atlanta
   items:
   - name: Scientific Atlanta Indus
