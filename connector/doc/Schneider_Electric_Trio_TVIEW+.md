@@ -1,5 +1,5 @@
 ---
-uid: Connector_help_Schneider Electric Trio TVIEW+
+uid: Connector_help_Schneider_Electric_Trio_TVIEW+
 ---
 
 # Schneider Electric Trio TVIEW+
@@ -16,7 +16,7 @@ This is a DataMiner connector for the **Schneider Electric Trio TVIEW+**, a netw
 
 ## Use Cases
 
-### Node Device Alarms Monitoring
+### Radio Alarms Monitoring
 
 **Challenge**: The **Schneider Electric Trio TVIEW+** has alarms coming from many radios within its network. This might make it hard to monitor the alarms for each of the radio.
 
