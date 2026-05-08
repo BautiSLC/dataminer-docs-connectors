@@ -18,17 +18,8 @@ This is a DataMiner connector for the **Schneider Electric Trio TVIEW+**, a netw
 
 ### Node Device Alarms Monitoring
 
-**Challenge**: The **Schneider Electric Trio TVIEW+** has alarms coming from many devices within its network. This might make it hard to monitor the alarms for each of the devices.
+**Challenge**: The **Schneider Electric Trio TVIEW+** has alarms coming from many radios within its network. This might make it hard to monitor the alarms for each of the radio.
 
-**Solution**: With this connector, you can easily represent the devices as a DVE, so that each device can be monitored individually.
+**Solution**: With this connector, you can easily represent the radio as a DVE, so that each radio can be monitored individually.
 
-**Benefit**: Potential issues can be quickly addressed in real time, improving the reliability and performance of managing the Ciena devices.
-
-## Prerequisites
-
-- An API Key and user ID are required for the connector's HTTP requests to work.
-
-## Technical Information
-
-> [!NOTE]
-> For detailed technical information, refer to our [technical documentation](xref:Schneider_Electric_Trio_TVIEW+_Technical).
+**Benefit**: Potential issues can be quickly addressed in real time, improving the reliability and performance of managing the Trio™ data radios.
