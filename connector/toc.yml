@@ -4422,6 +4422,11 @@
     topicUid: Connector_help_Generic_Modbus_PLC
   - name: Generic Move Files
     topicUid: Connector_help_Generic_Move_Files
+  - name: Generic MQTT Client
+    topicUid: Connector_help_Generic_MQTT_Client
+    items:
+      - name: Generic MQTT Client Technical
+        topicUid: Connector_help_Generic_MQTT_Client_Technical
   - name: Generic Network Services Monitor
     topicUid: Connector_help_Generic_Network_Services_Monitor
   - name: Generic OPC Data Access
