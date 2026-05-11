@@ -1,0 +1,41 @@
+---
+uid: Connector_help_Generic_MQTT_Client_Technical
+---
+
+# Generic MQTT Client
+
+## About
+
+The Generic MQTT Client connector enables DataMiner to communicate with MQTT broker. It allows users to establish a connection to a broker, subscribing to selected topics to receive messages in real time, and publishing messages to specified topics.
+
+## Configuration
+
+### Connections
+
+#### Virtual Connection - Main
+
+This connector uses a virtual connection and does not require any input during element creation.
+
+## How to Use
+
+On the **Element Configuration** page, configure the MQTT broker connection by specifying the following parameters:
+
+- **Broker Hostname**
+- **Broker Hostname Port**
+- **Broker Credentials**
+
+The broker credentials are mandatory and must be configured in order to establish a connection to the MQTT broker.
+Once the required settings have been configured, click the **Connect** button to establish communication with the MQTT broker.
+
+### General and Broker Statistics
+
+The **General** and **Broker Statistics** pages display the current connection status and general broker statistics. This provides an overview of the MQTT connection and broker activity.
+
+### Messages
+
+The **Messages** page contains a table listing all received MQTT messages. This includes the topic, payload, and timestamp for each message.
+Messages can be published from the **Publish Data** subpage located on this page by specifying a topic and a message body.
+
+### Topics
+
+The **Topics** page allows users to define the MQTT topics they want to subscribe to in order to receive incoming messages from the broker.
