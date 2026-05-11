@@ -6,7 +6,7 @@ uid: Connector_help_Astro_U148_Technical
 
 ## About
 
-This connector can be used with the following devices: **Astro U144**, **U148** and **U149**. It allows you to gather and view information from these devices as well as configure them.
+This connector can be used with the following devices: **Astro U144**, **U148**, and **U149**. It allows you to gather and view information from these devices as well as configure them.
 
 This connector uses **HTTP** to monitor the device. It also uses an **SNMP** interface to receive traps from the device.
 
@@ -20,11 +20,11 @@ Depending on the setup, the **HTTP** configuration can be different: this connec
 
 In either case, the **SNMP** interface collects the traps emitted by the device, so the SNMP IP address must be the IP address of the **U144/148/149** device (not the controller).
 
-HTTP Connection for Communication with U100C as Proxy
+#### HTTP Connection for Communication with U100C as Proxy
 
 - **IP address/host**: The IP address of the Astro U100 Controller.
 - **IP port**: The port of the destination, e.g., *80*.
-- **Bus address**: The IP address of the U148. In addition, "*ByPassProxy*" must be filled in to bypass any possible proxy that could block the HTTP communication. The two fields must be separated by a semicolon, e.g., *ByPassProxy;10.11.12.13.*
+- **Bus address**: The IP address of the U148. In addition, "*ByPassProxy*" must be filled in to bypass any possible proxy that could block the HTTP communication. The two values must be separated by a semicolon, e.g., *ByPassProxy;10.11.12.13.*
 
 #### HTTP Connection for Direct Communication
 
@@ -41,16 +41,18 @@ HTTP Connection for Communication with U100C as Proxy
 
 ### Credentials
 
-When a new element is created, if the communication settings are OK, information can be polled from the device without authentication. However, to perform sets on the device, the **Username** and **Password** credentials need to be configured on the **Login** page. The default credentials are:
+When a new element is created, if the communication settings are OK, information can be polled from the device without authentication. However, to perform sets on the device, the **Username** and **Password** credentials need to be configured on the **Login** page.
+
+The default credentials are:
 
 - **Username**: *admin*
-- **Password**: *astro*.
+- **Password**: *astro*
 
 ### Alarm forwarding
 
-From version **1.0.0.20** onwards, you can enable/disable the **Controller Alarm Forward** parameter on the **General page**. This parameter enables or disables alarm forwarding to the Astro U100 Controller. If you want to forward alarms to the controller, the **name of the controller element** must have the format ***'Controller Name'.'Name'***.
+From version **1.0.0.20** onwards, you can enable/disable the **Controller Alarm Forward** parameter on the **General page**. This parameter enables or disables alarm forwarding to the Astro U100 Controller. If you want to forward alarms to the controller, the **name of the controller element** must have the format `'Controller Name'.'Name'`.
 
-## Usage
+## How to Use
 
 ### General
 
@@ -63,10 +65,10 @@ This page displays general information about the device. Some important paramete
   - *Direct Communication*: The element sends the requests directly to the Astro module.
   - *U100C Proxy*: The element sends the requests to the Astro U100 Controller, which will forward them to the Astro module. The controller acts as a proxy.
 
-- **Connection Method**: This parameter is only available in Direct Communication mode.
+- **Connection Method**: This parameter is only available in *Direct Communication* mode.
 
   - *Login*: The element logs in to the device before every request (read and write requests).
-  - *Anonymous*: The element only logs in to the device for write requests. The device does not log in for read requests.
+  - *Anonymous*: The element only logs in to the device for write requests. It does not log in for read requests.
 
 ### Status
 
@@ -96,11 +98,29 @@ The CAM MUX is **only functional** for the **U144 device**. It enables the routi
 
 ### MUX
 
-To adjust the setup of the multiplexers, the **MUX Setup** table can be used. Also, this page displays an overview of the services that are currently assigned to the transport stream.
+To adjust the setup of the multiplexers, the **MUX Setup** table can be used. This page displays an overview of the services that are currently assigned to the transport stream.
 
-To assign a service to a MUX, use the **Add Service** page button at the bottom of the page. A new window will open where you can configure your service. To do so, select a multiplexer, select a service, and select the required SID Out State. Once all fields are filled in, click the Add Service button. Fields like SID and SID Out will be filled in automatically in some situations. When the service is successfully assigned to a MUX, a new entry (with the newly assigned service) will be added to the **Service Selection** table. Note that it is important that you select a **valid service for the multiplexer**.
+The **Service Selection** table will show the services that are currently assigned to a MUX.
 
-The **Service Selection** table will show the services that are currently assigned to a MUX. To remove a service from the transport stream, click the corresponding **Delete** button in the Action column of the Service Selection table. It is not possible to modify a service directly in the Service Selection table. Instead, you will need to remove the entry (with the Delete button in the Action column) and add a new one (Add Service page button \> fill in parameters \> Add Service button).
+#### Assigning a Service to a MUX
+
+1. Click the **Add Service** page button at the bottom of the page.
+
+   A new window will open where you can configure your service.
+
+1. Select a multiplexer, select a service, and select the required SID Out State.
+
+1. Once all fields are filled in, click the **Add Service** button.
+
+Fields like SID and SID Out will be filled in automatically in some situations. When the service is successfully assigned to a MUX, a new entry (with the newly assigned service) will be added to the **Service Selection** table. Note that it is important that you select a **valid service for the multiplexer**.
+
+#### Removing a Service from the Transport Stream
+
+To remove a service from the transport stream, click the corresponding **Delete** button in the **Action** column of the **Service Selection** table.
+
+#### Modifying a Service
+
+It is not possible to modify a service directly in the Service Selection table. Instead, you will need to **remove** the entry (with the Delete button in the Action column) and **add a new one** (see [Assigning a Service to a MUX](#assigning-a-service-to-a-mux)).
 
 ### TX MUX
 
@@ -110,37 +130,51 @@ On this page, you can route the input satellite channel to an output IP channel,
 
 On this page, you can upload/download config files to/from the device and perform a software update.
 
-### Configuration Files (Download/Upload)
+#### Downloading a file
 
-The following table provides more information on how to upload/download configuration files to the device:
+1. In the list of files on the Update/Config page, click *Download*.
 
-- To **download** a file, click *Download*. The following pop-up window will be displayed:
+   The following pop-up window will be displayed:
 
-  ![Download.PNG](~/connector/images/Download.PNG)
+   ![Download.PNG](~/connector/images/Download.PNG)
 
-  Enter the name of the file then click on `OK'. The file will be saved at this location:
+1. Enter the name of the file and click OK.
 
-  `C:\Skyline DataMiner\Documents\<protocol name>\<element name>\<file name>`
+   The file will be saved in the following location:
 
-- To **upload** a file, click *Upload*. The following pop-up window will be displayed:
+   `C:\Skyline DataMiner\Documents\<protocol name>\<element name>\<file name>`
 
-  ![Upload.PNG](~/connector/images/Upload.PNG)
+#### Uploading a file
 
-  **Module Name** lists all the Astro elements of the same type in the system.
+1. Make sure the file you want to upload is placed in the following location: `C:\Skyline DataMiner\Documents\<protocol name>\<element name>\<file name>`
 
-  **Upload File Name** lists all the files available in Documents folder of the selected module.
+1. In the list of files on the Update/Config page, click *Upload*.
 
-  The file to be uploaded is located at: `C:\Skyline DataMiner\Documents\<protocol name>\<element name>\<file name>`
+   The following pop-up window will be displayed:
 
-#### Software Update
+   ![Upload.PNG](~/connector/images/Upload.PNG)
+
+1. Configure the following parameters and click OK:
+
+   - **Module Name**: Select the relevant Astro element in the system.
+
+   - **Upload File Name**: Select the file from the list of files included in the folder mentioned earlier. If the file is not shown, use the **Refresh File List** button.
+
+#### Performing a Software Update
 
 The connector allows you to upload a firmware archive from the local disk of the DMA:
 
-![SoftwareUpdate.PNG](~/connector/images/Astro_U148_SoftwareUpdate.PNG)
+1. Make sure the archive is located in the following directory of the DMA: *C:\Skyline DataMiner\Documents\\Protocol Name\>*.
 
-The **Firmware File** parameter is used to select which file to upload. The drop-down list contains all the files present in the following directory of the DMA: *C:\Skyline DataMiner\Documents\\Protocol Name\>*.
+1. In the **Firmware File** dropdown box, select the file to upload.
 
-Once the file is selected, click the button **Update and Reboot** to start the upgrade. To follow the update progress, click the **Update Progress** page button. However, traps must be configured for this to be possible.
+   If the file you want is not shown yet, click **Refresh File List**.
+
+   ![SoftwareUpdate.PNG](~/connector/images/Astro_U148_SoftwareUpdate.PNG)
+
+1. Click **Update and Reboot** to start the upgrade.
+
+To follow the update progress, click the **Update Progress** page button. However, traps must be configured for this to be possible.
 
 ### Licensing
 
@@ -170,7 +204,7 @@ This page displays the web interface of the device. Note that the client machine
 
 ## DataMiner Connectivity Framework
 
-DCF is supported in range 1.0.0.x, from version **1.0.0.8 onwards**. It can only be used on a DMA with **9.0.0 \[CU6\]** as the minimum version.
+DCF is supported in range 1.0.0.x, from version **1.0.0.8 onwards**.
 
 ### Interfaces
 
@@ -187,4 +221,4 @@ DCF is supported in range 1.0.0.x, from version **1.0.0.8 onwards**. It can only
 
 ## Notes
 
-We recommend creating Astro U148 elements on a DMA running the **Windows Server 2012 R2 Standard operating system or higher**. Elements that were created on a DMA running the Windows Server 2008 R2 Standard operating system can behave incorrectly. When multiple modifications are made to the settings.xml file in a short time period, only the first modification will succeed and the others will fail.
+We recommend creating Astro U148 elements on a DMA running the **Windows Server 2012 R2 Standard operating system or higher**. Elements that were created on a DMA running the Windows Server 2008 R2 Standard operating system can behave incorrectly. When multiple modifications are made to the `settings.xml` file in a short time period, only the first modification will succeed and the others will fail.
