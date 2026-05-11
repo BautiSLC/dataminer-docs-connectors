@@ -9237,7 +9237,7 @@
     topicUid: Connector_help_Slack_Messaging
     items:
      - name: Slack Messaging Technical
-       topicUid: Connector_help_Slack_Messaging_Technical
+       topicUid: Connector_help_Slack_Messaging_technical
 - name: Smartgrid
   items:
   - name: Smartgrid PDU General
