@@ -16,6 +16,8 @@ The connector periodically retrieves the list of users and conversations via the
 
 **Access tokens** are used to authenticate on the API. Such a token can be obtained from the app configuration webpage. For more information, refer to the "Installation and configuration" section below.
 
+**Web Socket** communication requires that Socket Mode is enabled for the Slack app as well as an **App-Level Token** to be configured. **App-Level Tokens** can be obtained from the app configuration webpage, and must have the "connections:write" scope.
+
 Automation scripts that can be executed via Slack must have the following **specific dummies and parameters**, as otherwise they will be ignored:
 
 - Dummy "SLACK": The Slack DataMiner element that is executing the script.
@@ -42,7 +44,7 @@ HTTP CONNECTION:
 - **IP port**: The IP port of the destination, by default 443.
 - **Bus address**: If the proxy server has to be bypassed, specify *bypassproxy.*
 
-#### HTTP RTM API connection
+#### HTTP Web Socket API connection
 
 This connector uses an HTTP (web socket) connection and requires the following input during element creation:
 
@@ -65,6 +67,9 @@ This integration works based on a Slack bot that must be preconfigured via the S
 1. Click "Add Bot User".
 1. Install the application in your workspace, in order to receive the bot authentication token that can be used in the element.
 1. Copy the "Bot User Oauth Access Token", and paste it in the "OAuth Access Token" parameter on the Authentication page of the Slack element in DataMiner.
+1. Go to the "Socket Mode" page, and enable Socket Mode.
+1. Go to the "App-Level Tokens" section under the "Basic Information" page, and create a new token with the "connections:write" scope.
+1. Copy the new App-Level Token, and paste it in the "App-Level Token" parameter on the Websocket page of the Slack element in DataMiner.
 
    The connector will now connect to the Slack API, and shortly afterwards the bot user will come online.
 
@@ -123,7 +128,9 @@ On this page, the **OAuth access token** that should be used to communicate with
 
 ### Websocket
 
-This page displays information about the web socket connection towards the Slack RTM API.
+On this page, the **App-Level Token** that should be used to connect to the Slack Web Socket must be configured. The page also contains some parameters that display the current status of the web socket connection.
+
+![websocket.png](~/connector/images/Slack_Messaging_websocket.png)
 
 ### Web Interface
 
