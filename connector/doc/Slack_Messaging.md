@@ -6,7 +6,7 @@ uid: Connector_help_Slack_Messaging
 
 ## About
 
-This connector can be used to integrate Skyline DataMiner with a **Slack workspace**. It will communicate with Slack and ensure that the configured list of actions is executed. In order to keep this connector as general as possible, these actions are defined in **automation scripts**.
+This connector can be used to integrate DataMiner with a **Slack workspace**. It will communicate with Slack and ensure that the configured list of actions is executed. In order to keep this connector as general as possible, these actions are defined in **automation scripts**.
 
 When commands are sent into a Slack channel, these will be picked up by the element running this connector. When the element detects a known command, it will execute the automation script linked to that command.
 
@@ -15,8 +15,8 @@ When commands are sent into a Slack channel, these will be picked up by the elem
 
 ## Key Features
 
-- **Slack DataMiner Integration**: Allows for DataMiner to interact with Slack, enabling users to execute DataMiner automation scripts directly from Slack channels.
-- **Automated Slack Messages**: Enables DataMiner to send messages to Slack channels or users based on certain events or conditions defined in automation scripts.
+- **Slack DataMiner integration**: Allows for DataMiner to interact with Slack, enabling users to execute DataMiner automation scripts directly from Slack channels.
+- **Automated Slack messages**: Enables DataMiner to send messages to Slack channels or users based on certain events or conditions defined in automation scripts.
 
 ## Use Cases
 
